@@ -52,6 +52,16 @@ updated_at: 2026-04-08
 3. прошлые sessions
 4. при необходимости `08_archive/`
 
+## 6. Вопрос про задачи
+Начать с:
+1. `09_tasks/active-index.md`
+
+Если вопрос про конкретный проект:
+2. `09_tasks/projects/<project>.md`
+
+Если вопрос про формат или добавление:
+3. `09_tasks/task-schema.md`
+
 # Token budget rules
 
 - Сначала читать максимум 3 файла.

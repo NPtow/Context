@@ -16,6 +16,7 @@ updated_at: 2026-04-08
 - `latest session`: [07_sessions/2026/2026-04-08.md](/tmp/Context/07_sessions/2026/2026-04-08.md)
 - `founder memory`: [01_founder/working-with-nikita.md](/tmp/Context/01_founder/working-with-nikita.md)
 - `core commands`: [00_system/commands.md](/tmp/Context/00_system/commands.md)
+- `task index`: [09_tasks/active-index.md](/Users/NIKITA/.codex/context/Context/09_tasks/active-index.md)
 
 # Где что лежит
 
@@ -44,6 +45,12 @@ updated_at: 2026-04-08
 3. [07_sessions/2026/2026-04-08.md](/tmp/Context/07_sessions/2026/2026-04-08.md)
 4. при необходимости архив или старые project sessions
 
+## Если нужны задачи
+Читать в таком порядке:
+1. [09_tasks/active-index.md](/Users/NIKITA/.codex/context/Context/09_tasks/active-index.md)
+2. `09_tasks/projects/<project>.md`
+3. [09_tasks/task-schema.md](/Users/NIKITA/.codex/context/Context/09_tasks/task-schema.md), если нужно понять формат или добавить новую задачу
+
 # Правила чтения
 
 - Начинать с `canonical`, а не с сырого session log.
@@ -62,6 +69,7 @@ updated_at: 2026-04-08
 - `02_ventures/*/working/`
 - `05_playbooks/`
 - `docs/`
+- `09_tasks/`
 
 ## Evidence / raw memory
 - `07_sessions/`

@@ -22,18 +22,21 @@
 ## In progress
 - [~] Следующий проход должен проверить реальное удобство retrieval на новых сессиях, а не только на seed-контенте.
 - [~] Команда `обновись` уже прогнана на live-run и теперь покрывает system-level updates для самого `Context`.
+- [~] Добавлен общий task-layer; теперь нужно проверить, что task-команды работают так же стабильно, как project-команды.
 
 ## Next
 - [x] На следующем проходе прогнать `обновись` на живом новом диалоге.
 - [ ] Проверить, не нужно ли ужать founder-memory или project seed для экономии токенов.
 - [ ] Добавить playbook для `архивируй проект`, когда появится первый завершенный venture.
 - [ ] Добавить отдельный playbook для system-level updates внутри `Context`.
+- [ ] Прогнать `поставить задачу` и `все задачи по проекту X` на живом запросе.
 
 ## Decisions
 - Репозиторий строится как `LLM-first memory system`, а не как проектная папка.
 - Команды задаются обычными фразами, без слэшей.
 - Долгая память о Никите выделяется в отдельный слой и обновляется не всегда, а только при устойчивых новых сигналах.
 - Команда `обновись` должна уметь обновлять не только venture, но и system-level контекст самого `Context`.
+- У задач должен быть отдельный общий слой, а не размазанность по `status`, `sessions` и `open edges`.
 
 ## Assumptions
 - Пустой репозиторий не содержит ограничений по существующей структуре.
@@ -61,6 +64,7 @@
 - 2026-04-08: verified index-first retrieval path through `context-map.md`.
 - 2026-04-08: committed and pushed initial version to `NPtow/Context`.
 - 2026-04-08: executed first live `обновись` run and clarified system-level update behavior.
+- 2026-04-08: added a global task layer with project-specific task files and task commands.
 
 ## Smoke / demo checks for next run
 - Показать дерево структуры после Milestone 1.
