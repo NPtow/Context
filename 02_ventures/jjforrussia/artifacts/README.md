@@ -16,6 +16,7 @@ updated_at: 2026-04-09
 2. `pm-role-taxonomy-v1.md`
 3. `candidate-interview-questions-v1.md`
 4. `hadi-jj-russia-pilot.md`
+5. `hiring-signals-ledger-v1.md`
 
 # Что сюда писать
 
