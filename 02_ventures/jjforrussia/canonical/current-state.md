@@ -3,7 +3,7 @@ title: Current State
 type: canonical
 venture: jjforrussia
 status: active
-updated_at: 2026-04-08
+updated_at: 2026-04-09
 ---
 
 # Summary
@@ -39,7 +39,9 @@ updated_at: 2026-04-08
 
 ## Какой пилот сейчас считается правильным
 - `ICP v1` уже зафиксирован как узкая первая волна по candidate-side и company-side;
+- `PM role taxonomy v1` уже зафиксирована как первый рабочий фильтр по типам продуктовых ролей;
 - `core wedge` и `secondary CPO/head-level segment` не нужно смешивать в один и тот же pilot funnel;
+- `Head of Product / CPO / leadership` пока не считаются автоматически неподходящими; они идут отдельным руководительским потоком до следующего цикла проверки;
 - интервью с кандидатами как вход в пилот;
 - candidate interview v1 должен быть коротким и закрывать три задачи: ICP-fit, боль текущего поиска и резонанс формата `личный AI-рекрутер`;
 - вопросы про желаемые роли и company preferences должны жить в отдельном survey, а не в core pain interview;
@@ -62,9 +64,25 @@ updated_at: 2026-04-08
 - держать проектовый контекст отдельно от долгой памяти о Никите;
 - хранить каноническое состояние, логи и архив раздельно.
 
+## Supporting evidence
+- [evidence/sessions/2026-04-08-product-pivot.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-08-product-pivot.md) — главный pivot-session и первый market/pilot readout.
+- [artifacts/icp-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/icp-v1.md) — уже зафиксированный узкий стартовый сегмент.
+- [artifacts/pm-role-taxonomy-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/pm-role-taxonomy-v1.md) — первый рабочий фильтр по типам PM-ролей и серым зонам.
+- [evidence/sessions/2026-04-09-jjf-002-taxonomy-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-09-jjf-002-taxonomy-v1.md) — почему taxonomy была упрощена и как сейчас трактуется руководительский поток.
+- [working/hypotheses.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/working/hypotheses.md) — рабочие гипотезы и границы подтверждения.
+
+## Source trail
+- [evidence/sources/2026-04-08-russian-market-scan.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-08-russian-market-scan.md) — откуда взята текущая competitive map по РФ-рынку.
+- [evidence/sources/2026-04-08-candidate-interviews-wave-1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-08-candidate-interviews-wave-1.md) — чем подтверждены candidate pain, segmentation и manual-calibration readout.
+
+## Read next
+- [evidence/README.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/README.md)
+- [working/README.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/working/README.md)
+- [artifacts/README.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/README.md)
+
 # Open edges
-- детальная taxonomy product-ролей;
-- taxonomy, которая разделяет `core PM` и `CPO/head-level` сегменты;
+- уточнение границы между `core PM`, `technical PM` и внедренческой серой зоной;
+- проверка, выдержит ли ручной pilot отдельный `CPO/head-level` поток;
 - rejection taxonomy;
 - точный protocol для работы с HR vs hiring manager;
 - employer-side GTM в первой волне.

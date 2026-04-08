@@ -3,7 +3,7 @@ title: JJFORRUSSIA Tasks
 type: task-list
 project: jjforrussia
 status: active
-updated_at: 2026-04-08
+updated_at: 2026-04-09
 ---
 
 # Active tasks
@@ -11,7 +11,7 @@ updated_at: 2026-04-08
 | Task ID | Project | Title | Status | Priority | Type | Updated | Definition of done |
 |---|---|---|---|---|---|---|---|
 | JJF-001 | jjforrussia | Описать ICP проекта | done | P0 | research | 2026-04-08 | В Context есть короткий ICP с target candidate, target company и anti-ICP |
-| JJF-002 | jjforrussia | Собрать taxonomy PM-ролей v1 | now | P0 | research | 2026-04-08 | В Context есть taxonomy v1 по типам PM-ролей и их границам |
+| JJF-002 | jjforrussia | Собрать taxonomy PM-ролей v1 | done | P0 | research | 2026-04-09 | В Context есть taxonomy v1 по типам PM-ролей и их границам |
 | JJF-003 | jjforrussia | Собрать candidate interview protocol v1 | now | P0 | ops | 2026-04-08 | Есть сценарий интервью, intake-поля и шаблон фиксации candidate call |
 | JJF-004 | jjforrussia | Собрать employer / HM outreach protocol v1 | now | P0 | ops | 2026-04-08 | Есть outreach script, qualification rules и CTA для employer-side discovery |
 | JJF-005 | jjforrussia | Собрать список первых 20 target companies | next | P0 | growth | 2026-04-08 | Есть список 20 компаний первой волны с причиной включения |
