@@ -12,37 +12,44 @@ updated_at: 2026-04-08
 
 # Что сейчас активно
 
-- `active venture`: `referalka`
-- `latest session`: [07_sessions/2026/2026-04-08.md](/tmp/Context/07_sessions/2026/2026-04-08.md)
-- `founder memory`: [01_founder/working-with-nikita.md](/tmp/Context/01_founder/working-with-nikita.md)
-- `core commands`: [00_system/commands.md](/tmp/Context/00_system/commands.md)
+- `active venture`: `jjforrussia`
+- `latest session`: [07_sessions/2026/2026-04-08.md](/Users/NIKITA/.codex/context/Context/07_sessions/2026/2026-04-08.md)
+- `founder memory`: [01_founder/working-with-nikita.md](/Users/NIKITA/.codex/context/Context/01_founder/working-with-nikita.md)
+- `core commands`: [00_system/commands.md](/Users/NIKITA/.codex/context/Context/00_system/commands.md)
 - `task index`: [09_tasks/active-index.md](/Users/NIKITA/.codex/context/Context/09_tasks/active-index.md)
 
 # Где что лежит
 
 ## Если нужен текущий проект
 Читать в таком порядке:
-1. [02_ventures/referalka/README.md](/tmp/Context/02_ventures/referalka/README.md)
-2. [02_ventures/referalka/canonical/current-state.md](/tmp/Context/02_ventures/referalka/canonical/current-state.md)
-3. [02_ventures/referalka/working/hypotheses.md](/tmp/Context/02_ventures/referalka/working/hypotheses.md)
+1. [02_ventures/jjforrussia/README.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/README.md)
+2. [02_ventures/jjforrussia/canonical/current-state.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/canonical/current-state.md)
+3. [02_ventures/jjforrussia/working/hypotheses.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/working/hypotheses.md)
 4. Последнюю проектную сессию из `evidence/sessions/`
+
+## Если нужен старый проект `referalka`
+Читать в таком порядке:
+1. [02_ventures/referalka/README.md](/Users/NIKITA/.codex/context/Context/02_ventures/referalka/README.md)
+2. [02_ventures/referalka/canonical/current-state.md](/Users/NIKITA/.codex/context/Context/02_ventures/referalka/canonical/current-state.md)
+3. [02_ventures/referalka/working/hypotheses.md](/Users/NIKITA/.codex/context/Context/02_ventures/referalka/working/hypotheses.md)
+4. [02_ventures/referalka/evidence/sessions/2026-03-cycle1-summary.md](/Users/NIKITA/.codex/context/Context/02_ventures/referalka/evidence/sessions/2026-03-cycle1-summary.md)
 
 ## Если нужен общий контекст по Никите
 Читать в таком порядке:
-1. [01_founder/working-with-nikita.md](/tmp/Context/01_founder/working-with-nikita.md)
-2. [01_founder/preferences.md](/tmp/Context/01_founder/preferences.md)
-3. [01_founder/profile.md](/tmp/Context/01_founder/profile.md)
+1. [01_founder/working-with-nikita.md](/Users/NIKITA/.codex/context/Context/01_founder/working-with-nikita.md)
+2. [01_founder/preferences.md](/Users/NIKITA/.codex/context/Context/01_founder/preferences.md)
+3. [01_founder/profile.md](/Users/NIKITA/.codex/context/Context/01_founder/profile.md)
 
 ## Если нужен доменный контекст
 Читать в таком порядке:
-1. [03_domains/recruiting/jack-and-jill-analysis.md](/tmp/Context/03_domains/recruiting/jack-and-jill-analysis.md)
-2. [03_domains/recruiting/russian-pm-hiring-notes.md](/tmp/Context/03_domains/recruiting/russian-pm-hiring-notes.md)
+1. [03_domains/recruiting/jack-and-jill-analysis.md](/Users/NIKITA/.codex/context/Context/03_domains/recruiting/jack-and-jill-analysis.md)
+2. [03_domains/recruiting/russian-pm-hiring-notes.md](/Users/NIKITA/.codex/context/Context/03_domains/recruiting/russian-pm-hiring-notes.md)
 
 ## Если нужен temporal context
 Читать в таком порядке:
 1. текущий `canonical/current-state.md`
-2. [06_decisions/decision-log.md](/tmp/Context/06_decisions/decision-log.md)
-3. [07_sessions/2026/2026-04-08.md](/tmp/Context/07_sessions/2026/2026-04-08.md)
+2. [06_decisions/decision-log.md](/Users/NIKITA/.codex/context/Context/06_decisions/decision-log.md)
+3. [07_sessions/2026/2026-04-08.md](/Users/NIKITA/.codex/context/Context/07_sessions/2026/2026-04-08.md)
 4. при необходимости архив или старые project sessions
 
 ## Если нужны задачи

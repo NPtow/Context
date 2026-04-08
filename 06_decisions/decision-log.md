@@ -39,3 +39,13 @@ updated_at: 2026-04-08
 Почему:
 - задачи не должны извлекаться через интерпретацию `status`, `sessions` и `open edges`;
 - нужен формализованный backlog по всем проектам и отдельные task-команды.
+
+## D8. Старую `referalka` и новый AI-recruiting проект нужно хранить как два разных venture
+Почему:
+- старый referral marketplace и новый hiring-пилот имеют разную модель, economics и truth;
+- без разделения память начинает смешивать candidate-paid referral и employer-paid recruiting.
+
+## D9. Новый active venture получает отдельное имя `jjforrussia`
+Почему:
+- нужно убрать двусмысленность, где `referalka` означает то старый проект, то новый;
+- отдельное имя упрощает retrieval, backlog и дальнейшие обновления.

@@ -23,6 +23,7 @@
 - [~] Следующий проход должен проверить реальное удобство retrieval на новых сессиях, а не только на seed-контенте.
 - [~] Команда `обновись` уже прогнана на live-run и теперь покрывает system-level updates для самого `Context`.
 - [~] Добавлен общий task-layer; теперь нужно проверить, что task-команды работают так же стабильно, как project-команды.
+- [~] Venture-memory разделена: старая `referalka` и новый `jjforrussia` больше не смешиваются в одном canonical state.
 
 ## Next
 - [x] На следующем проходе прогнать `обновись` на живом новом диалоге.
@@ -37,6 +38,7 @@
 - Долгая память о Никите выделяется в отдельный слой и обновляется не всегда, а только при устойчивых новых сигналах.
 - Команда `обновись` должна уметь обновлять не только venture, но и system-level контекст самого `Context`.
 - У задач должен быть отдельный общий слой, а не размазанность по `status`, `sessions` и `open edges`.
+- Смешанные project memories нужно при необходимости разделять на отдельные venture, а не пытаться хранить все под одним именем.
 
 ## Assumptions
 - Пустой репозиторий не содержит ограничений по существующей структуре.
@@ -65,6 +67,7 @@
 - 2026-04-08: committed and pushed initial version to `NPtow/Context`.
 - 2026-04-08: executed first live `обновись` run and clarified system-level update behavior.
 - 2026-04-08: added a global task layer with project-specific task files and task commands.
+- 2026-04-08: split old `referalka` from the new AI-recruiting line and created separate venture `jjforrussia`.
 
 ## Smoke / demo checks for next run
 - Показать дерево структуры после Milestone 1.
