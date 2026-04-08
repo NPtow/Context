@@ -14,8 +14,8 @@ updated_at: 2026-04-08
 
 ### Что читать перед обновлением
 1. [context-map.md](/tmp/Context/context-map.md)
-2. активный project `README.md`
-3. активный `canonical/current-state.md`
+2. активный project `README.md` или system-level status file
+3. активный `canonical/current-state.md`, если активен venture
 4. последний `07_sessions/<year>/<date>.md`, если он уже есть
 5. [01_founder/working-with-nikita.md](/tmp/Context/01_founder/working-with-nikita.md)
 
@@ -23,6 +23,7 @@ updated_at: 2026-04-08
 - `02_ventures/<active>/canonical/current-state.md`, если изменилось текущее понимание проекта;
 - `02_ventures/<active>/working/hypotheses.md`, если изменились рабочие гипотезы;
 - `02_ventures/<active>/evidence/sessions/<date>.md`, если сессия проектоспецифична;
+- `docs/status.md`, если активная работа относится к самой memory-system, а не к конкретному venture;
 - `07_sessions/<year>/<date>.md` как дневной лог;
 - `06_decisions/decision-log.md`, если в разговоре принято новое решение;
 - `01_founder/working-with-nikita.md`, если появился новый устойчивый паттерн.
@@ -34,6 +35,13 @@ updated_at: 2026-04-08
 
 ### Когда задать вопрос
 Если неясен активный проект и нет достаточной уверенности.
+
+### Special case: system-level updates
+Если активная работа относится к самому репозиторию `Context`, а не к конкретному venture, команда `обновись` должна:
+- обновить `docs/status.md`;
+- обновить `07_sessions/<year>/<date>.md`;
+- при необходимости обновить системные протоколы в `00_system/`;
+- не трогать project `canonical`, если изменения не относятся к venture.
 
 ---
 
@@ -47,6 +55,8 @@ updated_at: 2026-04-08
 - project `working`
 - project-specific session log
 - decision-log, если было новое решение
+
+Если активен system-level контекст, вместо project-файлов обновляется `docs/status.md` и при необходимости `00_system/*`.
 
 ---
 
