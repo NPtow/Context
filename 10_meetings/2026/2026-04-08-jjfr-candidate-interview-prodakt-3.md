@@ -53,8 +53,8 @@ transcript_file: "/Users/NIKITA/.codex/context/Context/10_meetings/2026/transcri
 - `CPO`
 - `head of product`
 - senior product leadership
-- segment hypothesis: `CPO / internal digital product leadership`
-- product / non-product nature: опыт цифровой и продуктовый, но существенная доля силы лежит в `internal / logistics / back-office / operations-heavy` digital contexts, а не в первом `core external PM` wedge
+- segment hypothesis: `CPO / head-level digital product leadership`
+- product / non-product nature: опыт цифровой и продуктовый, с сильным leadership и organisational scope
 - ownership reality: `high`
 - leadership reality: `high`
 - market calibration problem: её реальный уровень и рыночная маркировка ролей плохо совпадают
@@ -66,8 +66,7 @@ transcript_file: "/Users/NIKITA/.codex/context/Context/10_meetings/2026/transcri
 
 ## Anti-ICP signals
 - Грейд выше, чем целевой сегмент `middle / middle+ / senior PM`.
-- Основной бэкграунд не в первом `core external digital PM` wedge.
-- Поиск и pain у неё относятся к executive/internal-products labor market, который отличается от первой волны `jjforrussia`, хотя сам по себе является цифровым и продуктовым.
+- Поиск и pain у неё относятся к executive/head-level labor market, который отличается от первой волны `jjforrussia`.
 
 # ICP Assessment
 - `core ICP fit`: `not fit`
@@ -77,21 +76,20 @@ transcript_file: "/Users/NIKITA/.codex/context/Context/10_meetings/2026/transcri
 - Человек точно продуктово мыслит и имеет сильный ownership.
 - Интервью даёт много структурированных данных про hiring pain и role calibration.
 - Есть реальный опыт на стыке продукта, бизнеса и организационного устройства, который может быть полезен как экспертный input.
-- Для отдельного сегмента `CPO / internal digital product leadership` это выглядит как валидный кандидат, а не как шум.
+- Для отдельного сегмента `CPO / head-level digital product leadership` это выглядит как валидный кандидат, а не как шум.
 
 ## Evidence against fit
 - Это не `middle / middle+ / senior PM` first-wave candidate, а скорее `CPO / head-level` рынок.
-- Большая часть силы кандидата лежит в internal/logistics/product leadership, а не в узком `external digital PM` segment.
 - По текущей модели core pilot flow её pain и её target market лежат уже за пределами стартового wedge.
 
 ## Verdict
 - В текущий `core PM` candidate pilot её включать не стоит.
-- При этом её больше не стоит трактовать как "неподходящего" кандидата вообще: она подходит под отдельный сегмент `CPO / internal digital product leadership`.
+- При этом её больше не стоит трактовать как "неподходящего" кандидата вообще: она подходит под отдельный сегмент `CPO / head-level digital product leadership`.
 - Для продукта это не только anti-ICP calibration, но и сигнал, что появляется второй сегмент со своей отдельной болью, механикой рынка и потенциальной value proposition.
 
 ## Manual matching suitability
 - `low` для текущего `core PM` wedge
-- `medium-high` для отдельного `CPO / internal digital product leadership` track, если он будет оформлен в самостоятельный segment
+- `medium-high` для отдельного `CPO / head-level digital product leadership` track, если он будет оформлен в самостоятельный segment
 
 # Pain Assessment
 - search shape: highly instrumented, multi-channel, partially automated

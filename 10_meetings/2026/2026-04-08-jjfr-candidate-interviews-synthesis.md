@@ -23,12 +23,12 @@ related_to:
 | --- | --- | --- | --- | --- | --- | --- |
 | `proadkt-1` | `partial fit` | gray-zone `technical / integrator-to-product transition` | technical / integrator-to-product transition | `medium` | `medium`, indirect | maybe later / separate sub-track |
 | `prodakt-2` | `fit` | core first-wave PM | middle PM, B2B/core product | `high` | `medium`, directly tested | yes, first-wave candidate |
-| `prodakt-3` | `not fit` | valid secondary `CPO / internal digital product leadership` segment | executive/internal product leadership | `high` | `mixed`, indirectly tested | no for core wedge, yes for segment-B tracking |
+| `prodakt-3` | `not fit` | valid secondary `CPO / head-level digital product leadership` segment | executive/head-level product leadership | `high` | `mixed`, indirectly tested | no for core wedge, yes for segment-B tracking |
 
 # Headline Read
 - Набор интервью уже достаточен, чтобы считать candidate pain реальным и многослойным.
 - Самый сильный positive ICP signal пришёл от `prodakt-2`: middle PM, real product ownership, active pain, openness to curated matching.
-- `prodakt-3` показал, что `internal-product / CPO / hidden-market` кейсы не надо смешивать с first-wave PM wedge, но их стоит оформлять как отдельный сегмент, а не как просто шум.
+- `prodakt-3` показал, что `CPO / head-level / hidden-market` кейсы не надо смешивать с first-wave PM wedge, но их стоит оформлять как отдельный сегмент, а не как просто шум.
 - `proadkt-1` показал важный серый сегмент: технический product transition из интеграторской среды может требовать либо отдельной taxonomy-ветки, либо явного exclusion rule.
 - Формат `личный AI-рекрутер` пока резонирует не как "вау AI", а как promise of better relevance, routing and signal quality. Это хороший знак, но evidence base ещё тонкая.
 
@@ -54,16 +54,15 @@ related_to:
 
 # Strongest Segment-Separation Signals
 - `CPO / head of product / executive` сейчас не должны попадать в первый pilot wedge.
-- `internal / logistics / back-office product leadership` нельзя автоматически считать тем же сегментом, что `core external digital PM`, хотя это тоже digital/product experience.
+- `CPO / head-level` нельзя автоматически считать тем же сегментом, что `middle / middle+ / senior PM`, даже если опыт полностью цифровой и продуктовый.
 - `technical / integrator-heavy` профили нужно отделять от core ICP; не все они плохие, но не все fit.
 - Нельзя оставлять размытое "все продукты"; taxonomy критична уже на первой волне.
 
 # What This Changes In Interview Protocol
 - Оставить короткий ICP-fit блок, но добавить в него жёсткую калибровку по типу product environment:
-- external digital product
-- internal product
-- platform / technical / solution product
+- product manager track
 - executive product leadership
+ - technical / platform / solution-heavy track
 - Сохранить pain block как ключевой: он дал больше всего signal.
 - Обязательно оставить прямой вопрос про доверие/скепсис к формату сервиса; именно он дал самый полезный design input в `prodakt-2`.
 - Добавить отдельный вопрос про success metric на ближайшие `2-4 недели`: что будет считаться улучшением относительно обычного поиска.
@@ -73,10 +72,9 @@ related_to:
 
 # What This Changes In ICP
 - Current ICP v1 в целом подтверждается, но его нужно разложить на сегменты:
-- first-wave core: `middle / middle+ / senior PM` в `external digital products`
-- secondary adjacent segment: `CPO / head of product / internal digital product leadership`
+- first-wave core: `middle / middle+ / senior PM` в digital product companies
+- secondary adjacent segment: `CPO / head of product / senior product leadership`
 - explicit gray zone: `technical PM / integrator-to-product transition`
-- Важно: `internal digital` не равно `non-digital`; это отдельный digital segment с другой механикой рынка.
 - На candidate-side особенно promising выглядит pain around low-signal funnel + readiness for curated matching.
 - Надо отдельно решить, является ли `technical / platform / B2B heavy PM` частью первого wedge или это уже расширение.
 
