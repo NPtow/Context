@@ -32,12 +32,14 @@ updated_at: 2026-04-08
 - AI-native игроки вроде `Naimee AI`, `Nanimai`, `Наймус` важны как будущая угроза employer-side AI-слою, если venture начнет двигаться в сторону SaaS для HR.
 
 ## Для кого
-- product managers уровня `middle / middle+ / senior`;
+- core first-wave segment: `middle / middle+ / senior product managers` в `external digital products`;
+- secondary adjacent segment: `CPO / head of product / internal digital product leadership`, особенно если уже есть повторяющиеся кандидаты и отдельная боль рынка;
 - компании с реальной digital product-функцией;
-- не "все IT", а digital product companies.
+- не "все IT", а digital product companies, но внутри них нужно различать `external digital PM` и `internal digital / operational product leadership`.
 
 ## Какой пилот сейчас считается правильным
 - `ICP v1` уже зафиксирован как узкая первая волна по candidate-side и company-side;
+- `core wedge` и `secondary CPO/internal-digital segment` не нужно смешивать в один и тот же pilot funnel;
 - интервью с кандидатами как вход в пилот;
 - candidate interview v1 должен быть коротким и закрывать три задачи: ICP-fit, боль текущего поиска и резонанс формата `личный AI-рекрутер`;
 - вопросы про желаемые роли и company preferences должны жить в отдельном survey, а не в core pain interview;
@@ -62,6 +64,7 @@ updated_at: 2026-04-08
 
 # Open edges
 - детальная taxonomy product-ролей;
+- taxonomy, которая разделяет `external digital PM` и `internal digital / CPO` сегменты;
 - rejection taxonomy;
 - точный protocol для работы с HR vs hiring manager;
 - employer-side GTM в первой волне.

@@ -19,16 +19,16 @@ related_to:
 
 # Per-Interview Quick Table
 
-| Interview | ICP fit | Candidate type | Pain severity | Value resonance | Pilot read |
-| --- | --- | --- | --- | --- | --- |
-| `proadkt-1` | `partial fit` | technical / integrator-to-product transition | `medium` | `medium`, indirect | maybe later / separate sub-track |
-| `prodakt-2` | `fit` | middle PM, B2B/core product | `high` | `medium`, directly tested | yes, first-wave candidate |
-| `prodakt-3` | `not fit` | executive/internal product leadership | `high` | `mixed`, indirectly tested | no for current wedge |
+| Interview | Core ICP fit | Segment read | Candidate type | Pain severity | Value resonance | Pilot read |
+| --- | --- | --- | --- | --- | --- | --- |
+| `proadkt-1` | `partial fit` | gray-zone `technical / integrator-to-product transition` | technical / integrator-to-product transition | `medium` | `medium`, indirect | maybe later / separate sub-track |
+| `prodakt-2` | `fit` | core first-wave PM | middle PM, B2B/core product | `high` | `medium`, directly tested | yes, first-wave candidate |
+| `prodakt-3` | `not fit` | valid secondary `CPO / internal digital product leadership` segment | executive/internal product leadership | `high` | `mixed`, indirectly tested | no for core wedge, yes for segment-B tracking |
 
 # Headline Read
 - Набор интервью уже достаточен, чтобы считать candidate pain реальным и многослойным.
 - Самый сильный positive ICP signal пришёл от `prodakt-2`: middle PM, real product ownership, active pain, openness to curated matching.
-- Самый полезный anti-ICP signal пришёл от `prodakt-3`: internal-product / CPO / hidden-market cases не надо смешивать с first-wave PM wedge.
+- `prodakt-3` показал, что `internal-product / CPO / hidden-market` кейсы не надо смешивать с first-wave PM wedge, но их стоит оформлять как отдельный сегмент, а не как просто шум.
 - `proadkt-1` показал важный серый сегмент: технический product transition из интеграторской среды может требовать либо отдельной taxonomy-ветки, либо явного exclusion rule.
 - Формат `личный AI-рекрутер` пока резонирует не как "вау AI", а как promise of better relevance, routing and signal quality. Это хороший знак, но evidence base ещё тонкая.
 
@@ -52,9 +52,9 @@ related_to:
 - Кандидат готов к curated, narrower, more calibrated process и не требует массовой воронки вакансий.
 - Особенно promising выглядят `B2B / core product` PM-кандидаты с ясным ownership и долгой фрустрацией от хаотичного поиска.
 
-# Strongest Anti-ICP Signals
+# Strongest Segment-Separation Signals
 - `CPO / head of product / executive` сейчас не должны попадать в первый pilot wedge.
-- `internal / logistics / back-office product leadership` нельзя автоматически считать тем же сегментом, что digital PM.
+- `internal / logistics / back-office product leadership` нельзя автоматически считать тем же сегментом, что `core external digital PM`, хотя это тоже digital/product experience.
 - `technical / integrator-heavy` профили нужно отделять от core ICP; не все они плохие, но не все fit.
 - Нельзя оставлять размытое "все продукты"; taxonomy критична уже на первой волне.
 
@@ -72,10 +72,11 @@ related_to:
 - `separate survey` для role preferences, company preferences, compensation, constraints
 
 # What This Changes In ICP
-- Current ICP v1 в целом подтверждается, но его нужно сделать жёстче:
-- first-wave core: `middle / middle+ / senior PM` в real digital product companies
-- explicit anti-ICP: `CPO`, `head of product`, internal-products-heavy leadership
+- Current ICP v1 в целом подтверждается, но его нужно разложить на сегменты:
+- first-wave core: `middle / middle+ / senior PM` в `external digital products`
+- secondary adjacent segment: `CPO / head of product / internal digital product leadership`
 - explicit gray zone: `technical PM / integrator-to-product transition`
+- Важно: `internal digital` не равно `non-digital`; это отдельный digital segment с другой механикой рынка.
 - На candidate-side особенно promising выглядит pain around low-signal funnel + readiness for curated matching.
 - Надо отдельно решить, является ли `technical / platform / B2B heavy PM` частью первого wedge или это уже расширение.
 
@@ -113,7 +114,7 @@ related_to:
 # Operational Conclusions
 - `prodakt-2` стоит использовать как референсный candidate card первой волны.
 - `proadkt-1` стоит держать как `partial fit`, но не смешивать с core PM cohort.
-- `prodakt-3` не вести в first-wave pilot как candidate, но сохранить как anti-ICP and market-structure evidence.
+- `prodakt-3` не вести в first-wave core pilot, но вести как отдельный `segment-B candidate` и как market-structure evidence.
 - Следующий наиболее ценный шаг не "ещё один общий созвон", а серия интервью тем же протоколом с обязательным direct value block.
 
 # Future Skill Shape Notes

@@ -15,7 +15,7 @@ transcript_file: "/Users/NIKITA/.codex/context/Context/10_meetings/2026/transcri
 
 # Context
 - Кандидатское интервью для `jjforrussia`, но разговор ушёл в более senior/executive проблематику и в рынок `CPO / head of product / internal products`.
-- Это очень полезный разговор не столько как подтверждение core ICP, сколько как strong anti-ICP / edge-case evidence.
+- Это очень полезный разговор не столько как подтверждение core first-wave ICP, сколько как evidence for a separate adjacent segment.
 - Интервью не прошло полный блок прямой проверки формата `личный AI-рекрутер`; основная ценность здесь в рыночной картине, pain description и границах текущего сегмента.
 - Уверенность в понимании содержательной части: `high`.
 - Уверенность в diarization: `medium`.
@@ -53,7 +53,8 @@ transcript_file: "/Users/NIKITA/.codex/context/Context/10_meetings/2026/transcri
 - `CPO`
 - `head of product`
 - senior product leadership
-- product / non-product nature: продуктовая и бизнесовая работа есть, но существенная доля опыта в `internal / logistics / back-office / operations-heavy` контекстах
+- segment hypothesis: `CPO / internal digital product leadership`
+- product / non-product nature: опыт цифровой и продуктовый, но существенная доля силы лежит в `internal / logistics / back-office / operations-heavy` digital contexts, а не в первом `core external PM` wedge
 - ownership reality: `high`
 - leadership reality: `high`
 - market calibration problem: её реальный уровень и рыночная маркировка ролей плохо совпадают
@@ -65,30 +66,32 @@ transcript_file: "/Users/NIKITA/.codex/context/Context/10_meetings/2026/transcri
 
 ## Anti-ICP signals
 - Грейд выше, чем целевой сегмент `middle / middle+ / senior PM`.
-- Основной бэкграунд не в классических digital product companies с внешним пользовательским продуктом.
-- Поиск и pain у неё относятся к executive/internal-products labor market, который отличается от первой волны `jjforrussia`.
+- Основной бэкграунд не в первом `core external digital PM` wedge.
+- Поиск и pain у неё относятся к executive/internal-products labor market, который отличается от первой волны `jjforrussia`, хотя сам по себе является цифровым и продуктовым.
 
 # ICP Assessment
-- `ICP fit`: `not fit`
+- `core ICP fit`: `not fit`
+- `secondary segment fit`: `fit`
 
 ## Evidence for fit
 - Человек точно продуктово мыслит и имеет сильный ownership.
 - Интервью даёт много структурированных данных про hiring pain и role calibration.
 - Есть реальный опыт на стыке продукта, бизнеса и организационного устройства, который может быть полезен как экспертный input.
+- Для отдельного сегмента `CPO / internal digital product leadership` это выглядит как валидный кандидат, а не как шум.
 
 ## Evidence against fit
 - Это не `middle / middle+ / senior PM` first-wave candidate, а скорее `CPO / head-level` рынок.
-- Большая часть силы кандидата лежит в internal/logistics/product leadership, а не в узком external digital PM segment.
-- По текущей модели pilot flow её pain и её target market лежат уже за пределами стартового wedge.
+- Большая часть силы кандидата лежит в internal/logistics/product leadership, а не в узком `external digital PM` segment.
+- По текущей модели core pilot flow её pain и её target market лежат уже за пределами стартового wedge.
 
 ## Verdict
-- В текущий candidate pilot её включать не стоит.
-- С точки зрения продукта это не "плохое интервью", а полезная negative example / anti-ICP calibration.
-- Её логичнее использовать как источник domain insight и как материал для exclusion criteria, а не как candidate for first placement pilot.
+- В текущий `core PM` candidate pilot её включать не стоит.
+- При этом её больше не стоит трактовать как "неподходящего" кандидата вообще: она подходит под отдельный сегмент `CPO / internal digital product leadership`.
+- Для продукта это не только anti-ICP calibration, но и сигнал, что появляется второй сегмент со своей отдельной болью, механикой рынка и потенциальной value proposition.
 
 ## Manual matching suitability
-- `low` для текущего pilot wedge
-- `medium` для потенциального future track, если venture когда-то пойдёт в executive/internal-products hiring intelligence
+- `low` для текущего `core PM` wedge
+- `medium-high` для отдельного `CPO / internal digital product leadership` track, если он будет оформлен в самостоятельный segment
 
 # Pain Assessment
 - search shape: highly instrumented, multi-channel, partially automated
@@ -179,14 +182,16 @@ transcript_file: "/Users/NIKITA/.codex/context/Context/10_meetings/2026/transcri
 
 # Actions and Open Questions
 ## Recommended next step
-- Не включать в первую candidate cohort.
+- Не включать в первую `core PM` candidate cohort.
+- Пометить как `segment-B candidate` для отдельного discovery/pilot track.
 - Сохранить интервью как source of truth для:
-- anti-ICP criteria
+- segment separation criteria
 - future executive/internal-product track
 - refinement of vacancy-calibration logic
 
 ## Pilot recommendation
-- `no` for current first-wave candidate pilot
+- `no` for current first-wave `core PM` pilot
+- `yes` for secondary-segment tracking
 
 ## Open questions
 - Если venture когда-то пойдёт выше по seniority, как будет отделяться `CPO` как title от `CPO` как реального scope?
