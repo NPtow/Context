@@ -1,7 +1,7 @@
 # Status: LLM-first memory system для `Context`
 
 ## Current phase
-`Execution complete / ready to push`
+`Initialized and pushed`
 
 ## Goal
 Подготовить репозиторий `Context` как долгую память для LLM:
@@ -20,12 +20,12 @@
 - [x] Сформирован плановый пакет в `docs/`.
 
 ## In progress
-- [~] Финальная проверка перед git commit и push.
+- [~] Следующий проход должен проверить реальное удобство retrieval на новых сессиях, а не только на seed-контенте.
 
 ## Next
-- [ ] Закоммитить структуру, seed-контент и протоколы.
-- [ ] Запушить initial version в `NPtow/Context`.
-- [ ] На следующем проходе сократить возможные retrieval-paths, если появится лишнее чтение.
+- [ ] На следующем проходе прогнать `обновись` на живом новом диалоге.
+- [ ] Проверить, не нужно ли ужать founder-memory или project seed для экономии токенов.
+- [ ] Добавить playbook для `архивируй проект`, когда появится первый завершенный venture.
 
 ## Decisions
 - Репозиторий строится как `LLM-first memory system`, а не как проектная папка.
@@ -56,6 +56,7 @@
 - 2026-04-08: drafted execution plan, status file, and test plan.
 - 2026-04-08: created root memory architecture, command protocol, retrieval guide, founder-memory seed, referalka seed, domain notes, and decision log.
 - 2026-04-08: verified index-first retrieval path through `context-map.md`.
+- 2026-04-08: committed and pushed initial version to `NPtow/Context`.
 
 ## Smoke / demo checks for next run
 - Показать дерево структуры после Milestone 1.
