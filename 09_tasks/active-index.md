@@ -9,7 +9,7 @@ updated_at: 2026-04-08
 
 | Task ID | Project | Title | Status | Priority | Type | Updated |
 |---|---|---|---|---|---|---|
-| JJF-001 | jjforrussia | Описать ICP проекта | now | P0 | research | 2026-04-08 |
+| JJF-001 | jjforrussia | Описать ICP проекта | done | P0 | research | 2026-04-08 |
 | JJF-002 | jjforrussia | Собрать taxonomy PM-ролей v1 | now | P0 | research | 2026-04-08 |
 | JJF-003 | jjforrussia | Собрать candidate interview protocol v1 | now | P0 | ops | 2026-04-08 |
 | JJF-004 | jjforrussia | Собрать employer / HM outreach protocol v1 | now | P0 | ops | 2026-04-08 |
