@@ -39,3 +39,16 @@ updated_at: 2026-04-08
 - появился более чёткий threat map по российскому рынку;
 - стало ясно, что следующая важная работа — verbal positioning и GTM-отстройка, а не просто общий market scan.
 - появился первый draft candidate interview questions без смешивания с отдельным preference survey.
+
+# Candidate interview processing
+- 3 candidate interviews из Zoom были полностью транскрибированы через Deepgram и сохранены в `10_meetings/2026/transcripts/` как full cleaned transcripts;
+- по каждому интервью создан отдельный подробный analytical report в `10_meetings/2026/`;
+- по набору интервью собран отдельный synthesis file с чтением через `ICP / Pain / Value / Gain / Hypothesis readout`;
+- для `jjforrussia` это стало первым полным циклом `recording -> transcript -> report -> synthesis`, который потом можно превращать в отдельный skill.
+
+# Что показали первые 3 интервью
+- `prodakt-2` дал сильный `core fit` под первую волну: middle PM, реальный product ownership, высокая pain intensity, внятный response на формат `личный AI-рекрутер`;
+- `proadkt-1` оказался `partial fit`: технический и integrator-heavy продуктовый переход, полезный как gray-zone сегмент;
+- `prodakt-3` не подходит в `core PM` wedge, но выглядит валидным кандидатом для отдельного `CPO / head-level digital product leadership` сегмента;
+- после этого стало ясно, что слишком тонкое деление на `external/internal` сейчас только сузит supply и не нужно на уровне top-level segmentation;
+- рабочая рамка упрощена до 2 сегментов: `core PM` и `CPO/head-level`.

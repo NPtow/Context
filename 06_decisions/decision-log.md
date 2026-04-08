@@ -55,3 +55,15 @@ updated_at: 2026-04-08
 - он должен читать `Context` напрямую и не зависеть от Prisma, auth и product env;
 - отдельный deploy упрощает проверку task-layer без вмешательства в runtime продукта;
 - такой сервис лучше подходит как внешний operator surface для задач, чем встраивание в существующее приложение по умолчанию.
+
+## D11. Если пользователь явно просит полный transcript, его нужно хранить в Context отдельным transcript file
+Почему:
+- для interview processing summary alone недостаточен;
+- transcript должен жить отдельно от analytical note, чтобы не засорять project truth и meeting summary;
+- такой формат нужен как база для будущего JJFR-specific transcription skill.
+
+## D12. Top-level candidate segmentation в `jjforrussia` пока должна быть двухуровневой: `core PM` и `CPO/head-level`
+Почему:
+- более узкое top-level деление вроде `external/internal` слишком рано заужает supply;
+- уже есть повторяющиеся кандидаты head-level сегмента со своей отдельной pain-map;
+- на текущем этапе продукту полезнее разделять рынок по уровню и типу роли, а не по слишком тонкому устройству продуктовой среды.
