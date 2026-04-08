@@ -52,6 +52,11 @@ updated_at: 2026-04-08
 3. [07_sessions/2026/2026-04-08.md](/Users/NIKITA/.codex/context/Context/07_sessions/2026/2026-04-08.md)
 4. при необходимости архив или старые project sessions
 
+## Если нужны встречи и созвоны
+Читать в таком порядке:
+1. [10_meetings/README.md](/Users/NIKITA/.codex/context/Context/10_meetings/README.md)
+2. нужные файлы из `10_meetings/<year>/`
+
 ## Если нужны задачи
 Читать в таком порядке:
 1. [09_tasks/active-index.md](/Users/NIKITA/.codex/context/Context/09_tasks/active-index.md)
@@ -81,6 +86,7 @@ updated_at: 2026-04-08
 ## Evidence / raw memory
 - `07_sessions/`
 - `02_ventures/*/evidence/`
+- `10_meetings/`
 
 ## Неактуальное
 - `08_archive/`

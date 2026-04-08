@@ -24,6 +24,7 @@
 - [~] Команда `обновись` уже прогнана на live-run и теперь покрывает system-level updates для самого `Context`.
 - [~] Добавлен общий task-layer; теперь нужно проверить, что task-команды работают так же стабильно, как project-команды.
 - [~] Venture-memory разделена: старая `referalka` и новый `jjforrussia` больше не смешиваются в одном canonical state.
+- [~] Добавлен отдельный meetings-layer и skill для записи встреч в Context.
 
 ## Next
 - [x] На следующем проходе прогнать `обновись` на живом новом диалоге.
@@ -68,6 +69,7 @@
 - 2026-04-08: executed first live `обновись` run and clarified system-level update behavior.
 - 2026-04-08: added a global task layer with project-specific task files and task commands.
 - 2026-04-08: split old `referalka` from the new AI-recruiting line and created separate venture `jjforrussia`.
+- 2026-04-08: added `10_meetings` layer and local Deepgram-based meeting transcription skill.
 
 ## Smoke / demo checks for next run
 - Показать дерево структуры после Milestone 1.
