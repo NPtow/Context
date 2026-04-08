@@ -1,7 +1,7 @@
 # Status: LLM-first memory system для `Context`
 
 ## Current phase
-`Initialized and pushed`
+`Task-layer retrieval validated through standalone live viewer`
 
 ## Goal
 Подготовить репозиторий `Context` как долгую память для LLM:
@@ -18,6 +18,8 @@
   - активный проект определяется по диалогу;
   - при низкой уверенности допустим один уточняющий вопрос.
 - [x] Сформирован плановый пакет в `docs/`.
+- [x] Task-layer проверен не только через markdown retrieval, но и через отдельный live viewer, читающий `09_tasks/projects/*.md` напрямую из GitHub.
+- [x] Для task-layer собран и задеплоен standalone preview service `context-viewer` вне продуктового приложения `referalka`.
 
 ## In progress
 - [~] Следующий проход должен проверить реальное удобство retrieval на новых сессиях, а не только на seed-контенте.
@@ -25,13 +27,16 @@
 - [~] Добавлен общий task-layer; теперь нужно проверить, что task-команды работают так же стабильно, как project-команды.
 - [~] Venture-memory разделена: старая `referalka` и новый `jjforrussia` больше не смешиваются в одном canonical state.
 - [~] Добавлен отдельный meetings-layer и skill для записи встреч в Context.
+- [~] Появился внешний UI-слой для задач; теперь нужно решить, останется ли он просто preview-инструментом или станет постоянной operator surface для `Context`.
 
 ## Next
 - [x] На следующем проходе прогнать `обновись` на живом новом диалоге.
+- [x] Прогнать live task query и визуально проверить task-layer на отдельном viewer.
 - [ ] Проверить, не нужно ли ужать founder-memory или project seed для экономии токенов.
 - [ ] Добавить playbook для `архивируй проект`, когда появится первый завершенный venture.
 - [ ] Добавить отдельный playbook для system-level updates внутри `Context`.
 - [ ] Прогнать `поставить задачу` и `все задачи по проекту X` на живом запросе.
+- [ ] Решить, нужен ли task viewer внутри самого `Context` repo как постоянный артефакт, а не только как внешний deploy.
 
 ## Decisions
 - Репозиторий строится как `LLM-first memory system`, а не как проектная папка.
@@ -40,6 +45,7 @@
 - Команда `обновись` должна уметь обновлять не только venture, но и system-level контекст самого `Context`.
 - У задач должен быть отдельный общий слой, а не размазанность по `status`, `sessions` и `open edges`.
 - Смешанные project memories нужно при необходимости разделять на отдельные venture, а не пытаться хранить все под одним именем.
+- Внешние интерфейсы поверх `Context` лучше держать как standalone сервисы, не смешивая их с продуктовым runtime и его env-зависимостями.
 
 ## Assumptions
 - Пустой репозиторий не содержит ограничений по существующей структуре.
@@ -70,6 +76,7 @@
 - 2026-04-08: added a global task layer with project-specific task files and task commands.
 - 2026-04-08: split old `referalka` from the new AI-recruiting line and created separate venture `jjforrussia`.
 - 2026-04-08: added `10_meetings` layer and local Deepgram-based meeting transcription skill.
+- 2026-04-08: built standalone `context-viewer` service for `09_tasks`, validated live GitHub fetch, and deployed a Vercel preview.
 
 ## Smoke / demo checks for next run
 - Показать дерево структуры после Milestone 1.
