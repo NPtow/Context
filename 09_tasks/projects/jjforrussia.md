@@ -13,7 +13,7 @@ updated_at: 2026-04-09
 | JJF-001 | jjforrussia | Описать ICP проекта | done | P0 | research | 2026-04-08 | В Context есть короткий ICP с target candidate, target company и anti-ICP |
 | JJF-002 | jjforrussia | Собрать taxonomy PM-ролей v1 | done | P0 | research | 2026-04-09 | В Context есть taxonomy v1 по типам PM-ролей и их границам |
 | JJF-003 | jjforrussia | Собрать candidate interview protocol v1 | done | P0 | ops | 2026-04-09 | Есть сценарий интервью, intake-поля, шаблон фиксации candidate call и отдельная анкета предпочтений |
-| JJF-004 | jjforrussia | Собрать employer / HM outreach protocol v1 | now | P0 | ops | 2026-04-08 | Есть outreach script, qualification rules и CTA для employer-side discovery |
+| JJF-004 | jjforrussia | Собрать employer / HM outreach protocol v1 | done | P0 | ops | 2026-04-09 | Есть outreach script, qualification rules, сценарий discovery-разговора и шаблон краткого профиля роли |
 | JJF-005 | jjforrussia | Собрать список первых 20 target companies | next | P0 | growth | 2026-04-08 | Есть список 20 компаний первой волны с причиной включения |
 | JJF-006 | jjforrussia | Собрать первые 30-40 target contacts | next | P0 | growth | 2026-04-08 | Есть список контактов первой волны с ролями и приоритетом outreach |
 | JJF-007 | jjforrussia | Провести первые 10 candidate interviews | next | P0 | research | 2026-04-08 | Проведены и зафиксированы первые 10 интервью с кандидатами из целевого сегмента |

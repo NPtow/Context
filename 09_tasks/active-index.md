@@ -12,7 +12,7 @@ updated_at: 2026-04-09
 | JJF-001 | jjforrussia | Описать ICP проекта | done | P0 | research | 2026-04-08 |
 | JJF-002 | jjforrussia | Собрать taxonomy PM-ролей v1 | done | P0 | research | 2026-04-09 |
 | JJF-003 | jjforrussia | Собрать candidate interview protocol v1 | done | P0 | ops | 2026-04-09 |
-| JJF-004 | jjforrussia | Собрать employer / HM outreach protocol v1 | now | P0 | ops | 2026-04-08 |
+| JJF-004 | jjforrussia | Собрать employer / HM outreach protocol v1 | done | P0 | ops | 2026-04-09 |
 | JJF-005 | jjforrussia | Собрать список первых 20 target companies | next | P0 | growth | 2026-04-08 |
 | JJF-006 | jjforrussia | Собрать первые 30-40 target contacts | next | P0 | growth | 2026-04-08 |
 | JJF-007 | jjforrussia | Провести первые 10 candidate interviews | next | P0 | research | 2026-04-08 |

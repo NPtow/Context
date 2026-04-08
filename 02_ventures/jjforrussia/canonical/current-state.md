@@ -41,12 +41,14 @@ updated_at: 2026-04-09
 - `ICP v1` уже зафиксирован как узкая первая волна по candidate-side и company-side;
 - `PM role taxonomy v1` уже зафиксирована как первый рабочий фильтр по типам продуктовых ролей;
 - `candidate interview protocol v1` уже собран как полный пакет, а не только список вопросов;
+- `employer / HM outreach protocol v1` уже собран как полный пакет, а не только один текст первого контакта;
 - `core wedge` и `secondary CPO/head-level segment` не нужно смешивать в один и тот же pilot funnel;
 - `Head of Product / CPO / leadership` пока не считаются автоматически неподходящими; они идут отдельным руководительским потоком до следующего цикла проверки;
 - интервью с кандидатами как вход в пилот;
 - candidate interview v1 должен быть коротким и закрывать три задачи: ICP-fit, боль текущего поиска и резонанс формата `личный AI-рекрутер`;
 - вопросы про желаемые роли и company preferences теперь вынесены в отдельную короткую анкету, а не живут внутри core interview;
 - параллельно интервью с HR и hiring managers;
+- employer-side первый шаг теперь выражен как `короткий аутрич -> discovery-разговор -> разбор одной живой роли`;
 - опрос по продуктовым чатам как расширение candidate funnel;
 - сбор первых вакансий и первых кандидатов;
 - ручной pilot flow без сложного matching engine.
@@ -70,8 +72,10 @@ updated_at: 2026-04-09
 - [artifacts/icp-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/icp-v1.md) — уже зафиксированный узкий стартовый сегмент.
 - [artifacts/pm-role-taxonomy-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/pm-role-taxonomy-v1.md) — первый рабочий фильтр по типам PM-ролей и серым зонам.
 - [artifacts/candidate-interview-pack-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/candidate-interview-pack-v1.md) — полный пакет по `JJF-003`.
+- [artifacts/employer-outreach-pack-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/employer-outreach-pack-v1.md) — полный пакет по `JJF-004`.
 - [evidence/sessions/2026-04-09-jjf-002-taxonomy-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-09-jjf-002-taxonomy-v1.md) — почему taxonomy была упрощена и как сейчас трактуется руководительский поток.
 - [evidence/sessions/2026-04-09-jjf-003-candidate-protocol-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-09-jjf-003-candidate-protocol-v1.md) — почему `JJF-003` был расширен до полного пакета.
+- [evidence/sessions/2026-04-09-jjf-004-employer-outreach-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-09-jjf-004-employer-outreach-v1.md) — как сейчас устроен employer-side first contact и discovery.
 - [working/hypotheses.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/working/hypotheses.md) — рабочие гипотезы и границы подтверждения.
 
 ## Source trail
@@ -87,7 +91,6 @@ updated_at: 2026-04-09
 - уточнение границы между `core PM`, `technical PM` и внедренческой серой зоной;
 - проверка, выдержит ли ручной pilot отдельный `CPO/head-level` поток;
 - rejection taxonomy;
-- точный protocol для работы с HR vs hiring manager;
 - employer-side GTM в первой волне.
 - конкретная verbal positioning against `Getmatch`, `careerspace` and `hh`;
 - выбор первого wedge: "личный AI-рекрутер", "product hiring intelligence" или "shortlist-as-a-service".
