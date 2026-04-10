@@ -3,7 +3,7 @@ title: JJFORRUSSIA Artifacts
 type: index
 venture: jjforrussia
 status: active
-updated_at: 2026-04-09
+updated_at: 2026-04-10
 ---
 
 # Назначение
@@ -19,14 +19,15 @@ updated_at: 2026-04-09
 5. `candidate-intake-fields-v1.md`
 6. `candidate-call-note-template-v1.md`
 7. `candidate-preferences-survey-v1.md`
-8. `employer-outreach-pack-v1.md`
-9. `employer-outreach-protocol-v1.md`
-10. `employer-qualification-rules-v1.md`
-11. `employer-discovery-call-script-v1.md`
-12. `hiring-brief-template-v1.md`
-13. `candidate-interview-questions-v1.md`
-14. `hadi-jj-russia-pilot.md`
-15. `hiring-signals-ledger-v1.md`
+8. `candidate-problem-survey-landing-v1.md`
+9. `employer-outreach-pack-v1.md`
+10. `employer-outreach-protocol-v1.md`
+11. `employer-qualification-rules-v1.md`
+12. `employer-discovery-call-script-v1.md`
+13. `hiring-brief-template-v1.md`
+14. `candidate-interview-questions-v1.md`
+15. `hadi-jj-russia-pilot.md`
+16. `hiring-signals-ledger-v1.md`
 
 # Что сюда писать
 

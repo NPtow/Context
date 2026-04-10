@@ -3,7 +3,7 @@ title: Current State
 type: canonical
 venture: jjforrussia
 status: active
-updated_at: 2026-04-09
+updated_at: 2026-04-10
 ---
 
 # Summary
@@ -14,6 +14,7 @@ updated_at: 2026-04-09
 - Кандидат бесплатный; работодатель платит `10% success fee`.
 - Главная цель пилота: получить хотя бы 1 успешную оплату от работодателя за найденного и устроенного кандидата.
 - Поверх базовой гипотезы добавлен рыночный вывод: прямой 1-в-1 аналог на российском рынке публично не найден, но есть сильные частичные и полупрямые конкуренты.
+- В candidate funnel появился отдельный public-facing problem survey landing, вынесенный в standalone deploy.
 
 # Current truth
 
@@ -50,12 +51,14 @@ updated_at: 2026-04-09
 - параллельно интервью с HR и hiring managers;
 - employer-side первый шаг теперь выражен как `короткий аутрич -> discovery-разговор -> разбор одной живой роли`;
 - опрос по продуктовым чатам как расширение candidate funnel;
+- отдельный candidate-facing survey/landing теперь рассматривается как правильный surface для такого distribution, а не как часть core product repo;
 - сбор первых вакансий и первых кандидатов;
 - ручной pilot flow без сложного matching engine.
 
 ## Что сейчас считается рабочей отстройкой
 - не идти в широкий рынок "всех IT-вакансий";
 - не продавать себя как очередной job board или карьерную консультацию;
+- problem survey и landing тоже должны повторять эту рамку, а не выглядеть как generic vacancy aggregator;
 - не конкурировать лоб в лоб с ATS/CRM для HR-команд;
 - позиционироваться как `личный AI-рекрутер + curated matching layer` для `product/digital middle+`;
 - держать фокус на candidate calibration, shortlist quality и employer-paid outcome.
@@ -63,6 +66,7 @@ updated_at: 2026-04-09
 ## Что уже решено
 - идти в двустороннюю модель;
 - использовать интервью как способ вскрывать реальные боли, а не продавать пилот в лоб;
+- candidate-facing problem survey / landing держать как отдельный standalone surface, а не встраивать в основной продуктовый код по умолчанию;
 - держать новый AI-recruiting venture отдельно от historical `referalka`;
 - держать проектовый контекст отдельно от долгой памяти о Никите;
 - хранить каноническое состояние, логи и архив раздельно.
@@ -76,6 +80,8 @@ updated_at: 2026-04-09
 - [evidence/sessions/2026-04-09-jjf-002-taxonomy-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-09-jjf-002-taxonomy-v1.md) — почему taxonomy была упрощена и как сейчас трактуется руководительский поток.
 - [evidence/sessions/2026-04-09-jjf-003-candidate-protocol-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-09-jjf-003-candidate-protocol-v1.md) — почему `JJF-003` был расширен до полного пакета.
 - [evidence/sessions/2026-04-09-jjf-004-employer-outreach-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-09-jjf-004-employer-outreach-v1.md) — как сейчас устроен employer-side first contact и discovery.
+- [evidence/sessions/2026-04-10-candidate-problem-survey-landing-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-10-candidate-problem-survey-landing-v1.md) — как собран отдельный public-facing survey landing и почему он вынесен в standalone deploy.
+- [artifacts/candidate-problem-survey-landing-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/candidate-problem-survey-landing-v1.md) — reusable survey/landing artifact для candidate-side problem research.
 - [working/hypotheses.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/working/hypotheses.md) — рабочие гипотезы и границы подтверждения.
 
 ## Source trail
@@ -94,3 +100,4 @@ updated_at: 2026-04-09
 - employer-side GTM в первой волне.
 - конкретная verbal positioning against `Getmatch`, `careerspace` and `hh`;
 - выбор первого wedge: "личный AI-рекрутер", "product hiring intelligence" или "shortlist-as-a-service".
+- distribution plan по product-сообществам и пороги качества для candidate survey funnel.
