@@ -1,0 +1,4 @@
+interface:
+  display_name: "Telegram Hiring Contact Sourcing"
+  short_description: "Extract vacancy contacts from Telegram into CSV"
+  default_prompt: "Use $telegram-hiring-contact-sourcing to explain Telegram setup via Telethon, review vacancy posts from my Telegram sources, extract evidence-backed recruiter or hiring contacts, and save accepted rows into CSV."

@@ -1,13 +1,14 @@
 # Status: LLM-first memory system для `Context`
 
 ## Current phase
-`Task-layer retrieval validated through standalone live viewer`
+`Balanced detail, path-aware retrieval and source-layer backfill are being added on top of the standalone report artifacts`
 
 ## Goal
 Подготовить репозиторий `Context` как долгую память для LLM:
 - с короткими командами на естественном языке;
 - с актуальным слоем, логами, памятью о Никите и архивом;
-- с retrieval-механикой, не требующей читать все подряд.
+- с retrieval-механикой, не требующей читать все подряд;
+- с `balanced` уровнем детализации по умолчанию, явной source-lineage и точной адресацией по папкам.
 
 ## Done
 - [x] Подтверждено, что репозиторий пустой и можно заложить архитектуру с нуля.
@@ -20,6 +21,13 @@
 - [x] Сформирован плановый пакет в `docs/`.
 - [x] Task-layer проверен не только через markdown retrieval, но и через отдельный live viewer, читающий `09_tasks/projects/*.md` напрямую из GitHub.
 - [x] Для task-layer собран и задеплоен standalone preview service `context-viewer` вне продуктового приложения `referalka`.
+- [x] HR-tech report-site вынесен из `referalka` и собран как отдельный static artifact внутри `Context`.
+- [x] В `Context` добавлены `source/`, `build-report-data.mjs`, `report-data.json` и `index.html` для HR-tech report-site.
+- [x] Системные протоколы и локальные skills переведены в `balanced detail by default` вместо lean-only retrieval.
+- [x] Для `jjforrussia` добавлены folder indexes и venture source-layer с первыми source packs.
+- [x] Для recruiting-domain добавлены локальные folder indexes, чтобы ходить точечно по папкам, а не только по top-level summary.
+- [x] Добавлен system-level `skill-hub`, который зеркалит локальные skills внутрь `Context` и даёт cloud-readable skill index.
+- [x] В `skill-hub` опубликован первый cloud skill `telegram-hiring-contact-sourcing`, а его каноническая версия удержана в безопасной `Telethon + own account` рамке.
 
 ## In progress
 - [~] Следующий проход должен проверить реальное удобство retrieval на новых сессиях, а не только на seed-контенте.
@@ -28,15 +36,25 @@
 - [~] Venture-memory разделена: старая `referalka` и новый `jjforrussia` больше не смешиваются в одном canonical state.
 - [~] Добавлен отдельный meetings-layer и skill для записи встреч в Context.
 - [~] Появился внешний UI-слой для задач; теперь нужно решить, останется ли он просто preview-инструментом или станет постоянной operator surface для `Context`.
+- [~] Появился второй внешний UI-слой: отдельный HR-tech report-site по recruiting landscape.
+- [~] Новый path-aware режим ещё нужно прогнать на живых query/update drills, чтобы проверить, что detail вырос без потери управляемости.
+- [~] `skill-hub` теперь уже используется не только как зеркало локальных skills, но и как хранилище cloud-first skill truth; дальше нужно проверить, насколько удобно это работает в живых retrieval/update циклах.
 
 ## Next
 - [x] На следующем проходе прогнать `обновись` на живом новом диалоге.
 - [x] Прогнать live task query и визуально проверить task-layer на отдельном viewer.
-- [ ] Проверить, не нужно ли ужать founder-memory или project seed для экономии токенов.
+- [ ] Прогнать retrieval drill `покажи контекст проекта по jjforrussia`.
+- [ ] Прогнать retrieval drill `покажи контекст проекта в 02_ventures/jjforrussia/artifacts`.
+- [ ] Прогнать retrieval drill `что изменилось в 03_domains/recruiting/hr-tech-report-site/source`.
+- [ ] Прогнать update drill `обновись по jjforrussia` и `сохрани сессию в 02_ventures/jjforrussia/evidence/sources`.
 - [ ] Добавить playbook для `архивируй проект`, когда появится первый завершенный venture.
 - [ ] Добавить отдельный playbook для system-level updates внутри `Context`.
 - [ ] Прогнать `поставить задачу` и `все задачи по проекту X` на живом запросе.
+- [ ] Прогнать retrieval drill по `00_system/skill-hub` на живом skill-вопросе.
+- [ ] Прогнать live use-case по `telegram-hiring-contact-sourcing` на собственном легитимном Telegram-аккаунте и проверить, хватает ли reference-layer без серых workaround-ов.
 - [ ] Решить, нужен ли task viewer внутри самого `Context` repo как постоянный артефакт, а не только как внешний deploy.
+- [ ] Завершить отдельный Vercel deploy для `03_domains/recruiting/hr-tech-report-site`.
+- [ ] Решить, нужно ли под report-site заводить постоянный project / domain или оставить как preview-only artifact.
 
 ## Decisions
 - Репозиторий строится как `LLM-first memory system`, а не как проектная папка.
@@ -46,6 +64,10 @@
 - У задач должен быть отдельный общий слой, а не размазанность по `status`, `sessions` и `open edges`.
 - Смешанные project memories нужно при необходимости разделять на отдельные venture, а не пытаться хранить все под одним именем.
 - Внешние интерфейсы поверх `Context` лучше держать как standalone сервисы, не смешивая их с продуктовым runtime и его env-зависимостями.
+- HR-tech market report должен жить отдельно от `referalka`; `Context` — правильное место для кода и snapshot-данных этого артефакта.
+- Default retrieval mode должен быть `balanced`, а не максимально lean.
+- Addressable folders должны иметь локальный `README.md`, а source-heavy claims должны получать reusable source packs.
+- Skills, нужные cloud-агенту, лучше хранить как реальные repo-копии внутри `Context`, а не как ссылки на локальную ФС.
 
 ## Assumptions
 - Пустой репозиторий не содержит ограничений по существующей структуре.
@@ -54,16 +76,16 @@
 
 ## Blockers
 - Нет технических блокеров.
-- Есть продуктовая точка согласования: подтверждение на исполнение структуры и seed-контента.
+- Остаётся методологическая проверка: не расползётся ли новый detail mode в raw dump без достаточной маршрутизации.
 
 ## Commands
 - Inspect repo:
-  - `cd /tmp/Context && git status --short --branch`
-  - `cd /tmp/Context && find . -maxdepth 2 | sort`
+  - `cd /Users/NIKITA/.codex/context/Context && git status --short --branch`
+  - `cd /Users/NIKITA/.codex/context/Context && find . -maxdepth 2 | sort`
 - Read plan:
-  - `cd /tmp/Context && sed -n '1,260p' docs/plans.md`
+  - `cd /Users/NIKITA/.codex/context/Context && sed -n '1,260p' docs/plans.md`
 - Read test plan:
-  - `cd /tmp/Context && sed -n '1,260p' docs/test-plan.md`
+  - `cd /Users/NIKITA/.codex/context/Context && sed -n '1,260p' docs/test-plan.md`
 
 ## Audit log
 - 2026-04-08: cloned `NPtow/Context`; repository is empty.
@@ -77,6 +99,11 @@
 - 2026-04-08: split old `referalka` from the new AI-recruiting line and created separate venture `jjforrussia`.
 - 2026-04-08: added `10_meetings` layer and local Deepgram-based meeting transcription skill.
 - 2026-04-08: built standalone `context-viewer` service for `09_tasks`, validated live GitHub fetch, and deployed a Vercel preview.
+- 2026-04-08: moved the HR-tech report surface out of `referalka`, created standalone site code in `Context`, and prepared it for separate Vercel deployment.
+- 2026-04-08: switched system protocols and local skills from lean retrieval defaults to balanced, path-aware, source-backed retrieval and update behavior.
+- 2026-04-08: added folder indexes and the first venture source packs for `jjforrussia`.
+- 2026-04-10: added `00_system/skill-hub` with a sync script, mirrored local skills, and a machine-readable registry for cloud access.
+- 2026-04-11: added the first cloud-published skill `telegram-hiring-contact-sourcing`, a Telegram setup/troubleshooting source pack, and aligned the canonical skill back to a safe own-account Telethon workflow.
 
 ## Smoke / demo checks for next run
 - Показать дерево структуры после Milestone 1.

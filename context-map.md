@@ -2,21 +2,43 @@
 title: Context Map
 type: index
 status: active
-updated_at: 2026-04-08
+updated_at: 2026-04-11
 ---
 
 # Назначение
 
-Этот файл — главный маршрутизатор для LLM.  
+Этот файл — главный маршрутизатор для LLM.
 Его нужно читать первым почти всегда.
 
 # Что сейчас активно
 
 - `active venture`: `jjforrussia`
-- `latest session`: [07_sessions/2026/2026-04-08.md](/Users/NIKITA/.codex/context/Context/07_sessions/2026/2026-04-08.md)
+- `latest session`: [07_sessions/2026/2026-04-11.md](/Users/NIKITA/.codex/context/Context/07_sessions/2026/2026-04-11.md)
 - `founder memory`: [01_founder/working-with-nikita.md](/Users/NIKITA/.codex/context/Context/01_founder/working-with-nikita.md)
 - `core commands`: [00_system/commands.md](/Users/NIKITA/.codex/context/Context/00_system/commands.md)
+- `skill hub`: [00_system/skill-hub/README.md](/Users/NIKITA/.codex/context/Context/00_system/skill-hub/README.md)
 - `task index`: [09_tasks/active-index.md](/Users/NIKITA/.codex/context/Context/09_tasks/active-index.md)
+
+# Как точно нацеливаться
+
+Используй один из трёх target-форматов:
+- `по <project>`
+- `в <folder>`
+- `в <repo-relative-path>`
+
+Resolution order всегда такой:
+1. repo-relative path
+2. явный project alias
+3. folder label внутри active project
+4. active project по диалогу
+
+Если target указывает на папку, входной точкой считается её `README.md`.
+
+# Режимы глубины
+
+- `кратко` — ближайшие canonical / index-файлы
+- default `balanced` — truth + evidence + sources
+- `глубоко` / `со всеми источниками` — source packs, related sessions и соседние папки
 
 # Где что лежит
 
@@ -25,7 +47,9 @@ updated_at: 2026-04-08
 1. [02_ventures/jjforrussia/README.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/README.md)
 2. [02_ventures/jjforrussia/canonical/current-state.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/canonical/current-state.md)
 3. [02_ventures/jjforrussia/working/hypotheses.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/working/hypotheses.md)
-4. Последнюю проектную сессию из `evidence/sessions/`
+4. [02_ventures/jjforrussia/evidence/README.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/README.md)
+5. Последнюю проектную сессию из `evidence/sessions/`
+6. `evidence/sources/README.md`, если нужен source-backed read
 
 ## Если нужен старый проект `referalka`
 Читать в таком порядке:
@@ -40,10 +64,19 @@ updated_at: 2026-04-08
 2. [01_founder/preferences.md](/Users/NIKITA/.codex/context/Context/01_founder/preferences.md)
 3. [01_founder/profile.md](/Users/NIKITA/.codex/context/Context/01_founder/profile.md)
 
+## Если нужны skills или agent workflows
+Читать в таком порядке:
+1. [00_system/skill-hub/README.md](/Users/NIKITA/.codex/context/Context/00_system/skill-hub/README.md)
+2. [00_system/skill-hub/catalog.md](/Users/NIKITA/.codex/context/Context/00_system/skill-hub/catalog.md)
+3. [00_system/skill-hub/registry.json](/Users/NIKITA/.codex/context/Context/00_system/skill-hub/registry.json), если нужен машинный индекс
+4. конкретную skill-папку из `00_system/skill-hub/skills/local/` или `00_system/skill-hub/skills/cloud/`
+
 ## Если нужен доменный контекст
 Читать в таком порядке:
-1. [03_domains/recruiting/jack-and-jill-analysis.md](/Users/NIKITA/.codex/context/Context/03_domains/recruiting/jack-and-jill-analysis.md)
-2. [03_domains/recruiting/russian-pm-hiring-notes.md](/Users/NIKITA/.codex/context/Context/03_domains/recruiting/russian-pm-hiring-notes.md)
+1. [03_domains/recruiting/README.md](/Users/NIKITA/.codex/context/Context/03_domains/recruiting/README.md)
+2. [03_domains/recruiting/jack-and-jill-analysis.md](/Users/NIKITA/.codex/context/Context/03_domains/recruiting/jack-and-jill-analysis.md)
+3. [03_domains/recruiting/russian-pm-hiring-notes.md](/Users/NIKITA/.codex/context/Context/03_domains/recruiting/russian-pm-hiring-notes.md)
+4. `hr-tech-report-site/README.md` и `hr-tech-report-site/source/README.md`, если вопрос source-heavy
 
 ## Если нужен temporal context
 Читать в таком порядке:
@@ -65,10 +98,11 @@ updated_at: 2026-04-08
 
 # Правила чтения
 
-- Начинать с `canonical`, а не с сырого session log.
-- Читать session logs только для понимания изменений и причин.
+- Начинать с `canonical` или folder `README.md`, а не с сырого session log.
+- Читать session logs и source packs как evidence, а не как первую точку входа.
 - Читать founder-memory только если вопрос связан с тем, как работать с Никитой или что для него устойчиво.
 - Не читать архив по умолчанию.
+- Default режим — `balanced`, а не максимальное ужатие.
 
 # Что считается правдой
 
@@ -87,6 +121,7 @@ updated_at: 2026-04-08
 - `07_sessions/`
 - `02_ventures/*/evidence/`
 - `10_meetings/`
+- source packs внутри `02_ventures/*/evidence/sources/`
 
 ## Неактуальное
 - `08_archive/`

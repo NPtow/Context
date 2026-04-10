@@ -15,7 +15,7 @@ updated_at: 2026-04-11
 - Главная цель пилота: получить хотя бы 1 успешную оплату от работодателя за найденного и устроенного кандидата.
 - Поверх базовой гипотезы добавлен рыночный вывод: прямой 1-в-1 аналог на российском рынке публично не найден, но есть сильные частичные и полупрямые конкуренты.
 - В candidate funnel появился отдельный public-facing problem survey landing, вынесенный в standalone deploy.
-- В employer-side sourcing stack появился первый operational Telegram channel pass с per-channel CSV за последний год.
+- Для sourcing ops появился reusable Telegram-only skill и connection guidance; серые workflows с покупными аккаунтами, прокси и account rotation не считаются частью канонического pilot flow.
 
 # Current truth
 
@@ -51,7 +51,7 @@ updated_at: 2026-04-11
 - вопросы про желаемые роли и company preferences теперь вынесены в отдельную короткую анкету, а не живут внутри core interview;
 - параллельно интервью с HR и hiring managers;
 - employer-side первый шаг теперь выражен как `короткий аутрич -> discovery-разговор -> разбор одной живой роли`;
-- первый Telegram-based sourcing pass по публичным каналам теперь уже собран как operational artifact, но качество каналов сильно отличается и требует cleaning перед outreach;
+- Telegram sourcing теперь допустим как operator support-layer для поиска вакансий и contact points, но только через собственный Telegram-аккаунт пользователя, `Telethon`, local session file и evidence-backed extraction;
 - опрос по продуктовым чатам как расширение candidate funnel;
 - отдельный candidate-facing survey/landing теперь рассматривается как правильный surface для такого distribution, а не как часть core product repo;
 - сбор первых вакансий и первых кандидатов;
@@ -69,6 +69,8 @@ updated_at: 2026-04-11
 - идти в двустороннюю модель;
 - использовать интервью как способ вскрывать реальные боли, а не продавать пилот в лоб;
 - candidate-facing problem survey / landing держать как отдельный standalone surface, а не встраивать в основной продуктовый код по умолчанию;
+- держать Telegram sourcing workflow как reusable exact-only ops layer, а не превращать его в серый scraping stack;
+- не принимать покупные / spam-banned аккаунты, прокси и rotation logic как часть канонического workflow;
 - держать новый AI-recruiting venture отдельно от historical `referalka`;
 - держать проектовый контекст отдельно от долгой памяти о Никите;
 - хранить каноническое состояние, логи и архив раздельно.
@@ -83,13 +85,14 @@ updated_at: 2026-04-11
 - [evidence/sessions/2026-04-09-jjf-003-candidate-protocol-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-09-jjf-003-candidate-protocol-v1.md) — почему `JJF-003` был расширен до полного пакета.
 - [evidence/sessions/2026-04-09-jjf-004-employer-outreach-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-09-jjf-004-employer-outreach-v1.md) — как сейчас устроен employer-side first contact и discovery.
 - [evidence/sessions/2026-04-10-candidate-problem-survey-landing-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-10-candidate-problem-survey-landing-v1.md) — как собран отдельный public-facing survey landing и почему он вынесен в standalone deploy.
-- [evidence/sessions/2026-04-11-telegram-channel-sourcing-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-11-telegram-channel-sourcing-v1.md) — первый batch-run по 5 Telegram-каналам и начальная оценка signal-to-noise.
+- [evidence/sessions/2026-04-11-telegram-sourcing-operator-surface.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-11-telegram-sourcing-operator-surface.md) — как для проекта оформлен reusable Telegram sourcing skill и почему unsafe account path не принят в truth.
 - [artifacts/candidate-problem-survey-landing-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/candidate-problem-survey-landing-v1.md) — reusable survey/landing artifact для candidate-side problem research.
 - [working/hypotheses.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/working/hypotheses.md) — рабочие гипотезы и границы подтверждения.
 
 ## Source trail
 - [evidence/sources/2026-04-08-russian-market-scan.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-08-russian-market-scan.md) — откуда взята текущая competitive map по РФ-рынку.
 - [evidence/sources/2026-04-08-candidate-interviews-wave-1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-08-candidate-interviews-wave-1.md) — чем подтверждены candidate pain, segmentation и manual-calibration readout.
+- [evidence/sources/2026-04-11-telegram-api-setup-and-app-creation.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-11-telegram-api-setup-and-app-creation.md) — официальный и community-backed source layer по Telethon onboarding и `my.telegram.org` app creation troubleshooting.
 
 ## Read next
 - [evidence/README.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/README.md)
@@ -104,3 +107,4 @@ updated_at: 2026-04-11
 - конкретная verbal positioning against `Getmatch`, `careerspace` and `hh`;
 - выбор первого wedge: "личный AI-рекрутер", "product hiring intelligence" или "shortlist-as-a-service".
 - distribution plan по product-сообществам и пороги качества для candidate survey funnel.
+- yield Telegram-only sourcing для `JJF-006` на собственном легитимном аккаунте пользователя.

@@ -1,0 +1,4 @@
+version: 1
+display_name: Meeting Transcriber
+short_description: Transcribe meetings with Deepgram and save them into Context
+default_prompt: Транскрибируй запись встречи, сделай краткую выжимку и сохрани ее в Context с привязкой к проекту

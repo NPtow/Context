@@ -1,0 +1,353 @@
+{
+  "title": "Skill Hub Registry",
+  "updated_at": "2026-04-11",
+  "skills": [
+    {
+      "id": "telegram-hiring-contact-sourcing",
+      "name": "telegram-hiring-contact-sourcing",
+      "description": "Use when the user asks to connect to their Telegram account, read vacancy posts from Telegram channels or chats, extract public HR/recruiter/hiring manager contacts tied to concrete vacancies, and save the accepted rows into CSV. Default to Telethon with a local session file, exact-only extraction, Telegram-only scope, and evidence-backed output.",
+      "namespace": "cloud",
+      "origin_path": null,
+      "hub_path": "skills/cloud/telegram-hiring-contact-sourcing",
+      "managed_by_sync": false,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/contact-extraction-rules.md",
+        "references/csv-schema.md",
+        "references/review-buckets.md",
+        "references/session-and-security.md",
+        "references/source-triage.md",
+        "references/telegram-connection-setup.md"
+      ],
+      "has_agents": true,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false,
+      "frontmatter": {
+        "_raw": "name: telegram-hiring-contact-sourcing\ndescription: Use when the user asks to connect to their Telegram account, read vacancy posts from Telegram channels or chats, extract public HR/recruiter/hiring manager contacts tied to concrete vacancies, and save the accepted rows into CSV. Default to Telethon with a local session file, exact-only extraction, Telegram-only scope, and evidence-backed output.",
+        "name": "telegram-hiring-contact-sourcing",
+        "description": "Use when the user asks to connect to their Telegram account, read vacancy posts from Telegram channels or chats, extract public HR/recruiter/hiring manager contacts tied to concrete vacancies, and save the accepted rows into CSV. Default to Telethon with a local session file, exact-only extraction, Telegram-only scope, and evidence-backed output."
+      },
+      "updated_at": "2026-04-11"
+    },
+    {
+      "id": "architect",
+      "name": "architect",
+      "description": "Анализирует локальные папки пользователя (Desktop, Downloads, Documents, Movies, Music, Pictures и др.), предлагает структуру и безопасно систематизирует файлы: никогда не удаляет, только перемещает или архивирует. Триггерит на фразы: \\\"систематизируй файлы\\\", \\\"разбери папки\\\", \\\"почисти загрузки\\\", \\\"архивируй старое\\\", \\\"architect\\\", \\\"разбери Desktop\\\", \\\"организуй файлы\\\".",
+      "namespace": "local",
+      "origin_path": "/Users/NIKITA/.codex/skills/architect",
+      "hub_path": "skills/local/architect",
+      "managed_by_sync": true,
+      "files": [
+        "SKILL.md"
+      ],
+      "has_agents": false,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false,
+      "frontmatter": {
+        "_raw": "name: architect\ndescription: \"Анализирует локальные папки пользователя (Desktop, Downloads, Documents, Movies, Music, Pictures и др.), предлагает структуру и безопасно систематизирует файлы: никогда не удаляет, только перемещает или архивирует. Триггерит на фразы: \\\"систематизируй файлы\\\", \\\"разбери папки\\\", \\\"почисти загрузки\\\", \\\"архивируй старое\\\", \\\"architect\\\", \\\"разбери Desktop\\\", \\\"организуй файлы\\\".\"",
+        "name": "architect",
+        "description": "Анализирует локальные папки пользователя (Desktop, Downloads, Documents, Movies, Music, Pictures и др.), предлагает структуру и безопасно систематизирует файлы: никогда не удаляет, только перемещает или архивирует. Триггерит на фразы: \\\"систематизируй файлы\\\", \\\"разбери папки\\\", \\\"почисти загрузки\\\", \\\"архивируй старое\\\", \\\"architect\\\", \\\"разбери Desktop\\\", \\\"организуй файлы\\\"."
+      },
+      "updated_at": "2026-04-11"
+    },
+    {
+      "id": "context-ingest",
+      "name": "context-ingest",
+      "description": "Use when the user asks to add a file or arbitrary information into the Context repo via phrases such as \"пополни контекст\", \"добавь в контекст\", \"сохрани это в Context\", \"положи файл в контекст\", \"add this to context\", or equivalent requests about importing notes, files, transcripts, source material, artifacts, or structured information.",
+      "namespace": "local",
+      "origin_path": "/Users/NIKITA/.codex/skills/context-ingest",
+      "hub_path": "skills/local/context-ingest",
+      "managed_by_sync": true,
+      "files": [
+        "SKILL.md"
+      ],
+      "has_agents": false,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false,
+      "frontmatter": {
+        "_raw": "name: context-ingest\ndescription: Use when the user asks to add a file or arbitrary information into the Context repo via phrases such as \"пополни контекст\", \"добавь в контекст\", \"сохрани это в Context\", \"положи файл в контекст\", \"add this to context\", or equivalent requests about importing notes, files, transcripts, source material, artifacts, or structured information.",
+        "name": "context-ingest",
+        "description": "Use when the user asks to add a file or arbitrary information into the Context repo via phrases such as \"пополни контекст\", \"добавь в контекст\", \"сохрани это в Context\", \"положи файл в контекст\", \"add this to context\", or equivalent requests about importing notes, files, transcripts, source material, artifacts, or structured information."
+      },
+      "updated_at": "2026-04-11"
+    },
+    {
+      "id": "context-query",
+      "name": "context-query",
+      "description": "Use when the user asks to read or summarize the Context repo, or writes `контекст`, `контеекст`, `context`, or another language equivalent and expects repo-grounded answers only. Triggers on requests such as \"покажи контекст проекта\", \"что изменилось\", \"покажи память обо мне\", \"сравни с прошлым\", \"дай сводку\", \"все задачи по проекту X\", \"какие задачи сейчас есть\", \"show context\", \"use only Context\", and similar requests about current project context, founder memory, deltas, or task lists.",
+      "namespace": "local",
+      "origin_path": "/Users/NIKITA/.codex/skills/context-query",
+      "hub_path": "skills/local/context-query",
+      "managed_by_sync": true,
+      "files": [
+        "SKILL.md"
+      ],
+      "has_agents": false,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false,
+      "frontmatter": {
+        "_raw": "name: context-query\ndescription: Use when the user asks to read or summarize the Context repo, or writes `контекст`, `контеекст`, `context`, or another language equivalent and expects repo-grounded answers only. Triggers on requests such as \"покажи контекст проекта\", \"что изменилось\", \"покажи память обо мне\", \"сравни с прошлым\", \"дай сводку\", \"все задачи по проекту X\", \"какие задачи сейчас есть\", \"show context\", \"use only Context\", and similar requests about current project context, founder memory, deltas, or task lists.",
+        "name": "context-query",
+        "description": "Use when the user asks to read or summarize the Context repo, or writes `контекст`, `контеекст`, `context`, or another language equivalent and expects repo-grounded answers only. Triggers on requests such as \"покажи контекст проекта\", \"что изменилось\", \"покажи память обо мне\", \"сравни с прошлым\", \"дай сводку\", \"все задачи по проекту X\", \"какие задачи сейчас есть\", \"show context\", \"use only Context\", and similar requests about current project context, founder memory, deltas, or task lists."
+      },
+      "updated_at": "2026-04-11"
+    },
+    {
+      "id": "context-update",
+      "name": "context-update",
+      "description": "Use when the user asks to update their Context repo via natural-language commands such as \"обновись\", \"обнови проект\", \"сохрани сессию\", \"архивируй проект\", \"обнови контекст\", \"поставить задачу\", \"добавь задачу\", or equivalent Russian phrasing about saving new conversation context, refreshing project state, updating founder memory, or editing the formal task layer.",
+      "namespace": "local",
+      "origin_path": "/Users/NIKITA/.codex/skills/context-update",
+      "hub_path": "skills/local/context-update",
+      "managed_by_sync": true,
+      "files": [
+        "SKILL.md"
+      ],
+      "has_agents": false,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false,
+      "frontmatter": {
+        "_raw": "name: context-update\ndescription: Use when the user asks to update their Context repo via natural-language commands such as \"обновись\", \"обнови проект\", \"сохрани сессию\", \"архивируй проект\", \"обнови контекст\", \"поставить задачу\", \"добавь задачу\", or equivalent Russian phrasing about saving new conversation context, refreshing project state, updating founder memory, or editing the formal task layer.",
+        "name": "context-update",
+        "description": "Use when the user asks to update their Context repo via natural-language commands such as \"обновись\", \"обнови проект\", \"сохрани сессию\", \"архивируй проект\", \"обнови контекст\", \"поставить задачу\", \"добавь задачу\", or equivalent Russian phrasing about saving new conversation context, refreshing project state, updating founder memory, or editing the formal task layer."
+      },
+      "updated_at": "2026-04-11"
+    },
+    {
+      "id": "justdoit",
+      "name": "justdoit",
+      "description": "Default execution-planning skill for almost any non-trivial repo task. Turns a raw task, feature request, PRD, or project brief into durable execution docs: `plans.md`, `status.md`, and `test-plan.md` (or existing repo equivalents), then proposes execution before starting. Use by default unless the user clearly wants a trivial one-shot answer, pure discussion, or no planning.",
+      "namespace": "local",
+      "origin_path": "/Users/NIKITA/.codex/skills/justdoit",
+      "hub_path": "skills/local/justdoit",
+      "managed_by_sync": true,
+      "files": [
+        "README.md",
+        "README.ru.md",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/plan-template.md",
+        "references/status-template.md",
+        "references/test-plan-template.md"
+      ],
+      "has_agents": true,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false,
+      "frontmatter": {
+        "_raw": "name: justdoit\ndescription: \"Default execution-planning skill for almost any non-trivial repo task. Turns a raw task, feature request, PRD, or project brief into durable execution docs: `plans.md`, `status.md`, and `test-plan.md` (or existing repo equivalents), then proposes execution before starting. Use by default unless the user clearly wants a trivial one-shot answer, pure discussion, or no planning.\"",
+        "name": "justdoit",
+        "description": "Default execution-planning skill for almost any non-trivial repo task. Turns a raw task, feature request, PRD, or project brief into durable execution docs: `plans.md`, `status.md`, and `test-plan.md` (or existing repo equivalents), then proposes execution before starting. Use by default unless the user clearly wants a trivial one-shot answer, pure discussion, or no planning."
+      },
+      "updated_at": "2026-04-11"
+    },
+    {
+      "id": "meeting-transcriber",
+      "name": "meeting-transcriber",
+      "description": "Use when the user asks to transcribe a meeting, call, interview, voice note, or recorded conversation and save the result into the Context repository. Trigger on requests like \"транскрибируй встречу\", \"сохрани встречу в контекст\", \"расшифруй созвон\", \"разбери запись интервью\", or equivalent Russian phrasing about turning an audio/video recording into structured meeting notes linked to a project.",
+      "namespace": "local",
+      "origin_path": "/Users/NIKITA/.codex/skills/meeting-transcriber",
+      "hub_path": "skills/local/meeting-transcriber",
+      "managed_by_sync": true,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "scripts/deepgram_transcribe.py"
+      ],
+      "has_agents": true,
+      "has_references": false,
+      "has_scripts": true,
+      "has_assets": false,
+      "frontmatter": {
+        "_raw": "name: meeting-transcriber\ndescription: Use when the user asks to transcribe a meeting, call, interview, voice note, or recorded conversation and save the result into the Context repository. Trigger on requests like \"транскрибируй встречу\", \"сохрани встречу в контекст\", \"расшифруй созвон\", \"разбери запись интервью\", or equivalent Russian phrasing about turning an audio/video recording into structured meeting notes linked to a project.",
+        "name": "meeting-transcriber",
+        "description": "Use when the user asks to transcribe a meeting, call, interview, voice note, or recorded conversation and save the result into the Context repository. Trigger on requests like \"транскрибируй встречу\", \"сохрани встречу в контекст\", \"расшифруй созвон\", \"разбери запись интервью\", or equivalent Russian phrasing about turning an audio/video recording into structured meeting notes linked to a project."
+      },
+      "updated_at": "2026-04-11"
+    },
+    {
+      "id": "system--imagegen",
+      "name": "imagegen",
+      "description": "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
+      "namespace": "local",
+      "origin_path": "/Users/NIKITA/.codex/skills/.system/imagegen",
+      "hub_path": "skills/local/system--imagegen",
+      "managed_by_sync": true,
+      "files": [
+        "LICENSE.txt",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "assets/imagegen-small.svg",
+        "assets/imagegen.png",
+        "references/cli.md",
+        "references/codex-network.md",
+        "references/image-api.md",
+        "references/prompting.md",
+        "references/sample-prompts.md",
+        "scripts/image_gen.py"
+      ],
+      "has_agents": true,
+      "has_references": true,
+      "has_scripts": true,
+      "has_assets": true,
+      "frontmatter": {
+        "_raw": "name: \"imagegen\"\ndescription: \"Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.\"",
+        "name": "imagegen",
+        "description": "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas."
+      },
+      "updated_at": "2026-04-11"
+    },
+    {
+      "id": "system--openai-docs",
+      "name": "openai-docs",
+      "description": "Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations, help choosing the latest model for a use case, or explicit GPT-5.4 upgrade and prompt-upgrade guidance; prioritize OpenAI docs MCP tools, use bundled references only as helper context, and restrict any fallback browsing to official OpenAI domains.",
+      "namespace": "local",
+      "origin_path": "/Users/NIKITA/.codex/skills/.system/openai-docs",
+      "hub_path": "skills/local/system--openai-docs",
+      "managed_by_sync": true,
+      "files": [
+        "LICENSE.txt",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "assets/openai-small.svg",
+        "assets/openai.png",
+        "references/gpt-5p4-prompting-guide.md",
+        "references/latest-model.md",
+        "references/upgrading-to-gpt-5p4.md"
+      ],
+      "has_agents": true,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": true,
+      "frontmatter": {
+        "_raw": "name: \"openai-docs\"\ndescription: \"Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations, help choosing the latest model for a use case, or explicit GPT-5.4 upgrade and prompt-upgrade guidance; prioritize OpenAI docs MCP tools, use bundled references only as helper context, and restrict any fallback browsing to official OpenAI domains.\"",
+        "name": "openai-docs",
+        "description": "Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations, help choosing the latest model for a use case, or explicit GPT-5.4 upgrade and prompt-upgrade guidance; prioritize OpenAI docs MCP tools, use bundled references only as helper context, and restrict any fallback browsing to official OpenAI domains."
+      },
+      "updated_at": "2026-04-11"
+    },
+    {
+      "id": "system--plugin-creator",
+      "name": "plugin-creator",
+      "description": "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to create a new local plugin, add optional plugin structure, or generate or update repo-root `.agents/plugins/marketplace.json` entries for plugin ordering and availability metadata.",
+      "namespace": "local",
+      "origin_path": "/Users/NIKITA/.codex/skills/.system/plugin-creator",
+      "hub_path": "skills/local/system--plugin-creator",
+      "managed_by_sync": true,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "assets/plugin-creator-small.svg",
+        "assets/plugin-creator.png",
+        "references/plugin-json-spec.md",
+        "scripts/create_basic_plugin.py"
+      ],
+      "has_agents": true,
+      "has_references": true,
+      "has_scripts": true,
+      "has_assets": true,
+      "frontmatter": {
+        "_raw": "name: plugin-creator\ndescription: Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to create a new local plugin, add optional plugin structure, or generate or update repo-root `.agents/plugins/marketplace.json` entries for plugin ordering and availability metadata.",
+        "name": "plugin-creator",
+        "description": "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to create a new local plugin, add optional plugin structure, or generate or update repo-root `.agents/plugins/marketplace.json` entries for plugin ordering and availability metadata."
+      },
+      "updated_at": "2026-04-11"
+    },
+    {
+      "id": "system--skill-creator",
+      "name": "skill-creator",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.",
+      "namespace": "local",
+      "origin_path": "/Users/NIKITA/.codex/skills/.system/skill-creator",
+      "hub_path": "skills/local/system--skill-creator",
+      "managed_by_sync": true,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "assets/skill-creator-small.svg",
+        "assets/skill-creator.png",
+        "license.txt",
+        "references/openai_yaml.md",
+        "scripts/generate_openai_yaml.py",
+        "scripts/init_skill.py",
+        "scripts/quick_validate.py"
+      ],
+      "has_agents": true,
+      "has_references": true,
+      "has_scripts": true,
+      "has_assets": true,
+      "frontmatter": {
+        "_raw": "name: skill-creator\ndescription: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.\nmetadata:\n  short-description: Create or update a skill",
+        "name": "skill-creator",
+        "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.",
+        "metadata": ""
+      },
+      "updated_at": "2026-04-11"
+    },
+    {
+      "id": "system--skill-installer",
+      "name": "skill-installer",
+      "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
+      "namespace": "local",
+      "origin_path": "/Users/NIKITA/.codex/skills/.system/skill-installer",
+      "hub_path": "skills/local/system--skill-installer",
+      "managed_by_sync": true,
+      "files": [
+        "LICENSE.txt",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "assets/skill-installer-small.svg",
+        "assets/skill-installer.png",
+        "scripts/github_utils.py",
+        "scripts/install-skill-from-github.py",
+        "scripts/list-skills.py"
+      ],
+      "has_agents": true,
+      "has_references": false,
+      "has_scripts": true,
+      "has_assets": true,
+      "frontmatter": {
+        "_raw": "name: skill-installer\ndescription: Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).\nmetadata:\n  short-description: Install curated skills from openai/skills or other repos",
+        "name": "skill-installer",
+        "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
+        "metadata": ""
+      },
+      "updated_at": "2026-04-11"
+    },
+    {
+      "id": "telegram-hiring-contact-sourcing",
+      "name": "telegram-hiring-contact-sourcing",
+      "description": "Use when the user asks to connect to their Telegram account, read vacancy posts from Telegram channels or chats, extract public HR/recruiter/hiring manager contacts tied to concrete vacancies, and save the accepted rows into CSV. Default to Telethon with a local session file, exact-only extraction, Telegram-only scope, and evidence-backed output.",
+      "namespace": "local",
+      "origin_path": "/Users/NIKITA/.codex/skills/telegram-hiring-contact-sourcing",
+      "hub_path": "skills/local/telegram-hiring-contact-sourcing",
+      "managed_by_sync": true,
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/contact-extraction-rules.md",
+        "references/csv-schema.md",
+        "references/review-buckets.md",
+        "references/session-and-security.md",
+        "references/source-triage.md",
+        "references/telegram-connection-setup.md"
+      ],
+      "has_agents": true,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false,
+      "frontmatter": {
+        "_raw": "name: telegram-hiring-contact-sourcing\ndescription: Use when the user asks to connect to their Telegram account, read vacancy posts from Telegram channels or chats, extract public HR/recruiter/hiring manager contacts tied to concrete vacancies, and save the accepted rows into CSV. Default to Telethon with a local session file, exact-only extraction, Telegram-only scope, and evidence-backed output.",
+        "name": "telegram-hiring-contact-sourcing",
+        "description": "Use when the user asks to connect to their Telegram account, read vacancy posts from Telegram channels or chats, extract public HR/recruiter/hiring manager contacts tied to concrete vacancies, and save the accepted rows into CSV. Default to Telethon with a local session file, exact-only extraction, Telegram-only scope, and evidence-backed output."
+      },
+      "updated_at": "2026-04-11"
+    }
+  ]
+}

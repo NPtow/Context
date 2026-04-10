@@ -78,8 +78,8 @@ updated_at: 2026-04-11
 
 # 2026-04-11
 
-## D14. Telegram hiring contact sourcing skill должен поддерживать и `count mode`, и `date window`
+## D14. Telegram sourcing workflow фиксируется как safe operator layer, а не как gray scraping stack
 Почему:
-- пользователю нужно запускать один и тот же skill и на `последние N сообщений`, и на `последний год` без внешней пост-обвязки;
-- date filtering должен жить внутри основного scraping path, а не в отдельном ad-hoc postprocess;
-- `one channel = one CSV` должно сохраняться даже когда accepted-контактов нет.
+- для `jjforrussia` полезно иметь reusable surface для поиска вакансий и person-level hiring contacts в Telegram;
+- этот surface должен быть ограничен `Telethon + own account + local session file + exact-only + evidence-backed CSV`;
+- покупные аккаунты, прокси, account rotation и прочие обходные operational paths нельзя закреплять в канонической truth проекта или skill-hub.
