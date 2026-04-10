@@ -2,7 +2,7 @@
 title: Decision Log
 type: decision-log
 status: active
-updated_at: 2026-04-10
+updated_at: 2026-04-11
 ---
 
 # 2026-04-08
@@ -75,3 +75,11 @@ updated_at: 2026-04-10
 - это исследовательский и funnel-инструмент, а не ядро продукта;
 - отдельный deploy упрощает быстрые правки wording, ветвления и distribution по сообществам;
 - такое разделение уменьшает связность с основным продуктовым репо и runtime по умолчанию.
+
+# 2026-04-11
+
+## D14. Telegram hiring contact sourcing skill должен поддерживать и `count mode`, и `date window`
+Почему:
+- пользователю нужно запускать один и тот же skill и на `последние N сообщений`, и на `последний год` без внешней пост-обвязки;
+- date filtering должен жить внутри основного scraping path, а не в отдельном ad-hoc postprocess;
+- `one channel = one CSV` должно сохраняться даже когда accepted-контактов нет.

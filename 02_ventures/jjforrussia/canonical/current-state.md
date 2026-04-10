@@ -3,7 +3,7 @@ title: Current State
 type: canonical
 venture: jjforrussia
 status: active
-updated_at: 2026-04-10
+updated_at: 2026-04-11
 ---
 
 # Summary
@@ -15,6 +15,7 @@ updated_at: 2026-04-10
 - Главная цель пилота: получить хотя бы 1 успешную оплату от работодателя за найденного и устроенного кандидата.
 - Поверх базовой гипотезы добавлен рыночный вывод: прямой 1-в-1 аналог на российском рынке публично не найден, но есть сильные частичные и полупрямые конкуренты.
 - В candidate funnel появился отдельный public-facing problem survey landing, вынесенный в standalone deploy.
+- В employer-side sourcing stack появился первый operational Telegram channel pass с per-channel CSV за последний год.
 
 # Current truth
 
@@ -50,6 +51,7 @@ updated_at: 2026-04-10
 - вопросы про желаемые роли и company preferences теперь вынесены в отдельную короткую анкету, а не живут внутри core interview;
 - параллельно интервью с HR и hiring managers;
 - employer-side первый шаг теперь выражен как `короткий аутрич -> discovery-разговор -> разбор одной живой роли`;
+- первый Telegram-based sourcing pass по публичным каналам теперь уже собран как operational artifact, но качество каналов сильно отличается и требует cleaning перед outreach;
 - опрос по продуктовым чатам как расширение candidate funnel;
 - отдельный candidate-facing survey/landing теперь рассматривается как правильный surface для такого distribution, а не как часть core product repo;
 - сбор первых вакансий и первых кандидатов;
@@ -81,6 +83,7 @@ updated_at: 2026-04-10
 - [evidence/sessions/2026-04-09-jjf-003-candidate-protocol-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-09-jjf-003-candidate-protocol-v1.md) — почему `JJF-003` был расширен до полного пакета.
 - [evidence/sessions/2026-04-09-jjf-004-employer-outreach-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-09-jjf-004-employer-outreach-v1.md) — как сейчас устроен employer-side first contact и discovery.
 - [evidence/sessions/2026-04-10-candidate-problem-survey-landing-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-10-candidate-problem-survey-landing-v1.md) — как собран отдельный public-facing survey landing и почему он вынесен в standalone deploy.
+- [evidence/sessions/2026-04-11-telegram-channel-sourcing-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-11-telegram-channel-sourcing-v1.md) — первый batch-run по 5 Telegram-каналам и начальная оценка signal-to-noise.
 - [artifacts/candidate-problem-survey-landing-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/candidate-problem-survey-landing-v1.md) — reusable survey/landing artifact для candidate-side problem research.
 - [working/hypotheses.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/working/hypotheses.md) — рабочие гипотезы и границы подтверждения.
 
