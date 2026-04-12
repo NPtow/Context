@@ -3,7 +3,7 @@ title: Hypotheses
 type: working
 venture: jjforrussia
 status: active
-updated_at: 2026-04-08
+updated_at: 2026-04-13
 ---
 
 # Главные гипотезы пилота
@@ -36,6 +36,12 @@ HR и hiring managers по PM-ролям страдают от низкого к
 ## Г8. Отстройка от `Getmatch` / `careerspace` / `hh` критична
 Если продукт будет считываться как "ещё один curated job service" или "карьерная помощь", он проиграет более сильным брендам. Нужен более острый тезис про calibration, релевантные процессы и employer-paid outcome.
 
+## Г9. Краткосрочный employer-side спрос может быть сжат рынком
+Даже если candidate-side боль и ручной matching реально работают, hire freeze и общее охлаждение найма могут резко просадить число живых PM-вакансий и замедлить монетизацию. Поэтому в ближайшем спринте надо смотреть не только на raw replies, но и на:
+- готовность HR / HM идти в разговор;
+- готовность делиться structured role data;
+- наличие реальных live briefs, а не просто вежливого интереса.
+
 # Что считаем успехом
 - хотя бы 1 успешная оплата от работодателя;
 - 2-3 живые вакансии;
@@ -54,8 +60,26 @@ HR и hiring managers по PM-ролям страдают от низкого к
 ## Что пока подтверждено слабее
 - `Г2` пока поддержана только слабо или умеренно: прямой value block по формату `личный AI-рекрутер` полноценно прошёл не во всех интервью;
 - для более уверенного подтверждения `Г2` нужен ещё набор интервью с одинаковым direct question block.
+- `Г4` и новая market-risk гипотеза пока остаются слабо проверенными: есть интуиция про hire freeze и сокращение вакансий, но пока мало живых employer-side разговоров, чтобы отделить макрориск от плохого аутрича или слабого оффера.
 
 ## Что это подсветило про сегментацию
 - first-wave core segment по-прежнему выглядит как `middle / middle+ / senior PM` в digital product companies;
 - рядом уже всплыл отдельный `CPO / head-level` segment, который не надо смешивать с core wedge;
 - технические и integrator-heavy PM-переходы пока стоит держать как gray-zone, а не как автоматический fit или no-fit.
+
+# Current evidence
+
+## Primary evidence files
+- [../evidence/sessions/2026-04-08-product-pivot.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-08-product-pivot.md)
+- [../artifacts/icp-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/icp-v1.md)
+- [../../10_meetings/2026/2026-04-08-jjfr-candidate-interviews-synthesis.md](/Users/NIKITA/.codex/context/Context/10_meetings/2026/2026-04-08-jjfr-candidate-interviews-synthesis.md)
+
+## Source-backed packs
+- [../evidence/sources/2026-04-08-russian-market-scan.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-08-russian-market-scan.md)
+- [../evidence/sources/2026-04-08-candidate-interviews-wave-1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-08-candidate-interviews-wave-1.md)
+- [../evidence/sources/2026-04-12-pusser-zheleznov-transcript.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-12-pusser-zheleznov-transcript.md)
+
+# Read next
+- [README.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/README.md)
+- [../evidence/README.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/README.md)
+- [../artifacts/README.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/README.md)

@@ -65,6 +65,7 @@ updated_at: 2026-04-13
 - опрос по продуктовым чатам как расширение candidate funnel;
 - отдельный candidate-facing survey/landing теперь рассматривается как правильный surface для такого distribution, а не как часть core product repo;
 - сбор первых вакансий и первых кандидатов;
+- первый service surface теперь стоит понимать не как recommendation engine, а как двусторонний сбор structured data для ручного matching;
 - ручной pilot flow без сложного matching engine.
 
 ## Что сейчас считается рабочей отстройкой
@@ -100,6 +101,7 @@ updated_at: 2026-04-13
 - [evidence/sessions/2026-04-11-telegram-sourcing-operator-surface.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-11-telegram-sourcing-operator-surface.md) — как для проекта оформлен reusable Telegram sourcing skill и почему unsafe account path не принят в truth.
 - [evidence/sessions/2026-04-13-telegram-contact-analysis-report.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-13-telegram-contact-analysis-report.md) — как текущий sourcing workflow был доведён до actionable analytical layer, PDF report и channel-quality readout.
 - [evidence/sessions/2026-04-13-context-audit-and-execution-guardrails.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-13-context-audit-and-execution-guardrails.md) — audit recent chats и уточнение execution guardrails без нового product pivot.
+- [evidence/sessions/2026-04-13-sprint-plan-rebase.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-13-sprint-plan-rebase.md) — как weekend-задания были переведены в рабочий будничный спринт и что считается expected output к пятнице.
 - [artifacts/candidate-problem-survey-landing-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/candidate-problem-survey-landing-v1.md) — reusable survey/landing artifact для candidate-side problem research.
 - [working/hypotheses.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/working/hypotheses.md) — рабочие гипотезы и границы подтверждения.
 
@@ -107,6 +109,7 @@ updated_at: 2026-04-13
 - [evidence/sources/2026-04-08-russian-market-scan.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-08-russian-market-scan.md) — откуда взята текущая competitive map по РФ-рынку.
 - [evidence/sources/2026-04-08-candidate-interviews-wave-1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-08-candidate-interviews-wave-1.md) — чем подтверждены candidate pain, segmentation и manual-calibration readout.
 - [evidence/sources/2026-04-11-telegram-api-setup-and-app-creation.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-11-telegram-api-setup-and-app-creation.md) — официальный и community-backed source layer по Telethon onboarding и `my.telegram.org` app creation troubleshooting.
+- [evidence/sources/2026-04-12-pusser-zheleznov-transcript.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-12-pusser-zheleznov-transcript.md) — transcript-backed source pack по ближайшему спринту, ручному matching-first flow и employer-side рискам.
 
 ## Read next
 - [evidence/README.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/README.md)
@@ -123,3 +126,4 @@ updated_at: 2026-04-13
 - distribution plan по product-сообществам и пороги качества для candidate survey funnel.
 - yield Telegram-only sourcing для `JJF-006` на собственном легитимном аккаунте пользователя.
 - как быстро превратить `843` actionable direct contacts из текущего batch в shortlist компаний и first-wave outreach queue без ручной возни по всем `2492` raw rows.
+- как именно конвертировать первые HR-ответы и expert calls в живые hiring briefs при сжатом рынке и возможном hire freeze.
