@@ -3,7 +3,7 @@ title: Current State
 type: canonical
 venture: jjforrussia
 status: active
-updated_at: 2026-04-11
+updated_at: 2026-04-13
 ---
 
 # Summary
@@ -13,9 +13,11 @@ updated_at: 2026-04-11
 - Первый сегмент: `middle / middle+ / senior product managers` в digital product companies.
 - Кандидат бесплатный; работодатель платит `10% success fee`.
 - Главная цель пилота: получить хотя бы 1 успешную оплату от работодателя за найденного и устроенного кандидата.
+- Execution layer уже формализован через backlog `JJF-001` ... `JJF-013`; ближайший live focus — `JJF-005` ... `JJF-009`.
 - Поверх базовой гипотезы добавлен рыночный вывод: прямой 1-в-1 аналог на российском рынке публично не найден, но есть сильные частичные и полупрямые конкуренты.
 - В candidate funnel появился отдельный public-facing problem survey landing, вынесенный в standalone deploy.
 - Для sourcing ops появился reusable Telegram-only skill и connection guidance; серые workflows с покупными аккаунтами, прокси и account rotation не считаются частью канонического pilot flow.
+- Исследовательские scaffolds и вспомогательные operator surfaces нужно держать local-first / standalone-first; они не должны автоматически попадать в продуктовые репозитории без явной команды.
 
 # Current truth
 
@@ -71,6 +73,7 @@ updated_at: 2026-04-11
 - candidate-facing problem survey / landing держать как отдельный standalone surface, а не встраивать в основной продуктовый код по умолчанию;
 - держать Telegram sourcing workflow как reusable exact-only ops layer, а не превращать его в серый scraping stack;
 - не принимать покупные / spam-banned аккаунты, прокси и rotation logic как часть канонического workflow;
+- exploratory research scaffolds, landscape maps и вспомогательные surface-ы по умолчанию держать локально или отдельно от product repo; не пушить их в `referalka` и соседние продуктовые репозитории без явной команды;
 - держать новый AI-recruiting venture отдельно от historical `referalka`;
 - держать проектовый контекст отдельно от долгой памяти о Никите;
 - хранить каноническое состояние, логи и архив раздельно.
@@ -86,6 +89,7 @@ updated_at: 2026-04-11
 - [evidence/sessions/2026-04-09-jjf-004-employer-outreach-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-09-jjf-004-employer-outreach-v1.md) — как сейчас устроен employer-side first contact и discovery.
 - [evidence/sessions/2026-04-10-candidate-problem-survey-landing-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-10-candidate-problem-survey-landing-v1.md) — как собран отдельный public-facing survey landing и почему он вынесен в standalone deploy.
 - [evidence/sessions/2026-04-11-telegram-sourcing-operator-surface.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-11-telegram-sourcing-operator-surface.md) — как для проекта оформлен reusable Telegram sourcing skill и почему unsafe account path не принят в truth.
+- [evidence/sessions/2026-04-13-context-audit-and-execution-guardrails.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-13-context-audit-and-execution-guardrails.md) — audit recent chats и уточнение execution guardrails без нового product pivot.
 - [artifacts/candidate-problem-survey-landing-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/candidate-problem-survey-landing-v1.md) — reusable survey/landing artifact для candidate-side problem research.
 - [working/hypotheses.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/working/hypotheses.md) — рабочие гипотезы и границы подтверждения.
 

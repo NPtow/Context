@@ -2,7 +2,7 @@
 title: Decision Log
 type: decision-log
 status: active
-updated_at: 2026-04-11
+updated_at: 2026-04-13
 ---
 
 # 2026-04-08
@@ -83,3 +83,11 @@ updated_at: 2026-04-11
 - для `jjforrussia` полезно иметь reusable surface для поиска вакансий и person-level hiring contacts в Telegram;
 - этот surface должен быть ограничен `Telethon + own account + local session file + exact-only + evidence-backed CSV`;
 - покупные аккаунты, прокси, account rotation и прочие обходные operational paths нельзя закреплять в канонической truth проекта или skill-hub.
+
+# 2026-04-13
+
+## D15. Исследовательские и вспомогательные артефакты по умолчанию держать local-first, не пушить в продуктовые репозитории без явной команды
+Почему:
+- exploratory scaffolds, market maps, prototype surfaces и прочие operator artifacts могут быть полезны проекту, но не обязаны сразу попадать в продуктовый git history;
+- такой guardrail уменьшает риск засорить `referalka` или другой product repo материалами, которые ещё не прошли короткую локальную валидацию;
+- это согласуется с желанием пользователя сначала проверять артефакты локально или в standalone-слое, а уже потом явно решать, что нужно сохранить или запушить.

@@ -2,7 +2,7 @@
 title: Working With Nikita
 type: founder-memory
 status: active
-updated_at: 2026-04-09
+updated_at: 2026-04-13
 ---
 
 # Stable patterns
@@ -14,6 +14,7 @@ updated_at: 2026-04-09
 - Ему нужен более плотный context по умолчанию: не только короткие summary, но и явная evidence / source lineage.
 - Ему важна точечная адресация по папкам и путям без лишнего угадывания active target.
 - Он предпочитает local-first workflow: сначала локальный артефакт и короткая валидация, потом перенос в `Context`.
+- Если речь о прототипах, исследованиях и вспомогательных артефактах, он не хочет auto-push в продуктовые репозитории: по умолчанию сначала локально, push только по явной команде.
 
 # Emerging patterns
 

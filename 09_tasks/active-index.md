@@ -2,7 +2,7 @@
 title: Active Task Index
 type: task-index
 status: active
-updated_at: 2026-04-09
+updated_at: 2026-04-13
 ---
 
 # Активные задачи по всем проектам
@@ -23,8 +23,9 @@ updated_at: 2026-04-09
 | JJF-012 | jjforrussia | Описать pilot economics и commercial framing | next | P0 | product | 2026-04-08 |
 | JJF-013 | jjforrussia | Получить первый employer-paid pilot outcome | next | P0 | growth | 2026-04-08 |
 | CTX-001 | context-system | Добавить общий task-layer | done | P0 | context | 2026-04-08 |
-| CTX-002 | context-system | Добавить команды task-layer в протокол | now | P0 | context | 2026-04-08 |
-| CTX-003 | context-system | Обновить Codex skills под task-команды | now | P1 | context | 2026-04-08 |
+| CTX-002 | context-system | Добавить команды task-layer в протокол | done | P0 | context | 2026-04-13 |
+| CTX-003 | context-system | Обновить Codex skills под task-команды | done | P1 | context | 2026-04-13 |
+| CTX-004 | context-system | Проверить retrieval task-layer на живом запросе | done | P1 | context | 2026-04-13 |
 
 # По умолчанию
 
