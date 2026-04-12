@@ -91,3 +91,9 @@ updated_at: 2026-04-13
 - exploratory scaffolds, market maps, prototype surfaces и прочие operator artifacts могут быть полезны проекту, но не обязаны сразу попадать в продуктовый git history;
 - такой guardrail уменьшает риск засорить `referalka` или другой product repo материалами, которые ещё не прошли короткую локальную валидацию;
 - это согласуется с желанием пользователя сначала проверять артефакты локально или в standalone-слое, а уже потом явно решать, что нужно сохранить или запушить.
+
+## D16. Telegram sourcing channels для `jjforrussia` нужно оценивать по actionable direct-contact layer, а не по raw объёму строк
+Почему:
+- большие mixed/general каналы создают много raw rows, но заметно хуже по signal-to-noise, чем узкие role-oriented источники;
+- после появления batch analytical layer стало видно, что `direct share`, `unique direct contacts` и `noise share` лучше отражают operator value канала;
+- это уменьшает риск тратить время на расширение channel list вместо работы с уже найденным direct-layer и shortlist компаний.
