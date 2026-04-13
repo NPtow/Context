@@ -2,7 +2,7 @@
 title: Decision Log
 type: decision-log
 status: active
-updated_at: 2026-04-13
+updated_at: 2026-04-14
 ---
 
 # 2026-04-08
@@ -97,3 +97,17 @@ updated_at: 2026-04-13
 - большие mixed/general каналы создают много raw rows, но заметно хуже по signal-to-noise, чем узкие role-oriented источники;
 - после появления batch analytical layer стало видно, что `direct share`, `unique direct contacts` и `noise share` лучше отражают operator value канала;
 - это уменьшает риск тратить время на расширение channel list вместо работы с уже найденным direct-layer и shortlist компаний.
+
+# 2026-04-14
+
+## D17. Employer-side market claims по HR-корпусу нужно строить только на evidence-first research слое
+Почему:
+- rule-based mixed-corpus анализ дал много ложных срабатываний из карьерного, vacancy и event-шумa;
+- для `jjforrussia` ценность HR research не в красивой интерпретации, а в том, чтобы каждый сильный тезис можно было перечитать и проверить;
+- поэтому каналы должны сначала проходить model-reviewed relevance check, а сильная тема — иметь пакет прямых ссылок и консервативный count.
+
+## D18. Company-layer нельзя считать подтверждённым, если это только mention-level сигнал
+Почему:
+- простое упоминание компании в HR-посте не доказывает, что у неё есть релевантная боль или willingness to buy;
+- смешение `company mentioned` и `company has this pain` создаёт ложные списки таргетов;
+- core report должен включать только explicit company cases или отдельно помеченные hypotheses со слабой уверенностью.

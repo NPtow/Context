@@ -3,7 +3,7 @@ title: Hypotheses
 type: working
 venture: jjforrussia
 status: active
-updated_at: 2026-04-13
+updated_at: 2026-04-14
 ---
 
 # Главные гипотезы пилота
@@ -62,6 +62,23 @@ HR и hiring managers по PM-ролям страдают от низкого к
 - для более уверенного подтверждения `Г2` нужен ещё набор интервью с одинаковым direct question block.
 - `Г4` и новая market-risk гипотеза пока остаются слабо проверенными: есть интуиция про hire freeze и сокращение вакансий, но пока мало живых employer-side разговоров, чтобы отделить макрориск от плохого аутрича или слабого оффера.
 
+# Current readout после HR corpus v2
+
+## Что теперь выглядит подтверждённее по employer-side боли
+
+- `Г3` усилилась: после model-reviewed пересборки HR-корпуса есть повторяющийся и ссылочно подтверждённый набор тем про:
+  - слабый сигнал о кандидате;
+  - рассинхрон рекрутера и нанимающего менеджера;
+  - потери кандидатов внутри воронки;
+  - ошибку найма, которая вскрывается после выхода;
+- `Г8` тоже стала конкретнее: отстройка должна идти не через обещание "больше кандидатов", а через calibration, shortlist quality и снижение ошибки решения.
+
+## Что всё ещё нельзя считать подтверждённым
+
+- `Г4` по-прежнему слабо подтверждена: HR-корпус показывает pain и язык рынка, но не доказывает willingness to pay.
+- company-level target list пока не подтверждён: mention компании в HR-посте не равен доказанной боли компании.
+- `Г9` остаётся открытой: content evidence по рынку не заменяет живые employer-side discovery calls и реальные hiring briefs.
+
 ## Что это подсветило про сегментацию
 - first-wave core segment по-прежнему выглядит как `middle / middle+ / senior PM` в digital product companies;
 - рядом уже всплыл отдельный `CPO / head-level` segment, который не надо смешивать с core wedge;
@@ -78,6 +95,7 @@ HR и hiring managers по PM-ролям страдают от низкого к
 - [../evidence/sources/2026-04-08-russian-market-scan.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-08-russian-market-scan.md)
 - [../evidence/sources/2026-04-08-candidate-interviews-wave-1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-08-candidate-interviews-wave-1.md)
 - [../evidence/sources/2026-04-12-pusser-zheleznov-transcript.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-12-pusser-zheleznov-transcript.md)
+- [../evidence/sessions/2026-04-14-hr-topic-research-v2-evidence.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-14-hr-topic-research-v2-evidence.md)
 
 # Read next
 - [README.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/README.md)
