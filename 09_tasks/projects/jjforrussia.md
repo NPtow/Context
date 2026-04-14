@@ -3,7 +3,7 @@ title: JJFORRUSSIA Tasks
 type: task-list
 project: jjforrussia
 status: active
-updated_at: 2026-04-09
+updated_at: 2026-04-14
 ---
 
 # Active tasks
@@ -16,7 +16,7 @@ updated_at: 2026-04-09
 | JJF-004 | jjforrussia | Собрать employer / HM outreach protocol v1 | done | P0 | ops | 2026-04-09 | Есть outreach script, qualification rules, сценарий discovery-разговора и шаблон краткого профиля роли |
 | JJF-005 | jjforrussia | Собрать список первых 20 target companies | next | P0 | growth | 2026-04-08 | Есть список 20 компаний первой волны с причиной включения |
 | JJF-006 | jjforrussia | Собрать первые 30-40 target contacts | next | P0 | growth | 2026-04-08 | Есть список контактов первой волны с ролями и приоритетом outreach |
-| JJF-007 | jjforrussia | Провести первые 10 candidate interviews | next | P0 | research | 2026-04-08 | Проведены и зафиксированы первые 10 интервью с кандидатами из целевого сегмента |
+| JJF-007 | jjforrussia | Провести первые 10 candidate interviews | done | P0 | research | 2026-04-14 | Проведены и зафиксированы первые 10 интервью с кандидатами из целевого сегмента |
 | JJF-008 | jjforrussia | Получить первые 2-3 employer discovery calls | next | P0 | growth | 2026-04-08 | Есть 2-3 discovery-разговора с работодателями или hiring managers |
 | JJF-009 | jjforrussia | Получить первые 2-3 live hiring briefs | next | P0 | growth | 2026-04-08 | Есть 2-3 реальные hiring briefs с понятным профилем роли |
 | JJF-010 | jjforrussia | Собрать rejection taxonomy v1 | next | P1 | research | 2026-04-08 | В Context есть первая карта причин отказа по PM-кандидатам и процессам |
