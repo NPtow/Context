@@ -2,7 +2,7 @@
 title: Working With Nikita
 type: founder-memory
 status: active
-updated_at: 2026-04-13
+updated_at: 2026-04-17
 ---
 
 # Stable patterns
@@ -20,6 +20,7 @@ updated_at: 2026-04-13
 
 - Никита хочет естественные команды вида `обновись`, а не slash-команды.
 - Ему важна temporal memory: видеть, что мы думали раньше и что изменилось.
+- Для UI-работы Никита тяготеет к live browser-driven, screen-by-screen циклу: сначала точно поймать вид и анимацию на малом участке, быстро утвердить, потом расширять покрытие.
 
 # Update rule
 

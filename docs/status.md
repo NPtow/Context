@@ -32,6 +32,7 @@
 ## In progress
 - [~] Следующий проход должен проверить реальное удобство retrieval на новых сессиях, а не только на seed-контенте.
 - [~] Команда `обновись` уже прогнана на live-run и теперь покрывает system-level updates для самого `Context`.
+- [~] Появился новый automation-use-case `обновись ко всем чатам`: локальные `.codex/sessions/*.jsonl` уже подходят как input для system-level synthesis, но под этот проход ещё не оформлен отдельный playbook с windowing и signal-threshold rules.
 - [~] Добавлен общий task-layer; теперь нужно проверить, что task-команды работают так же стабильно, как project-команды.
 - [~] Venture-memory разделена: старая `referalka` и новый `jjforrussia` больше не смешиваются в одном canonical state.
 - [~] Добавлен отдельный meetings-layer и skill для записи встреч в Context.
@@ -39,6 +40,7 @@
 - [~] Появился второй внешний UI-слой: отдельный HR-tech report-site по recruiting landscape.
 - [~] Новый path-aware режим ещё нужно прогнать на живых query/update drills, чтобы проверить, что detail вырос без потери управляемости.
 - [~] `skill-hub` теперь уже используется не только как зеркало локальных skills, но и как хранилище cloud-first skill truth; дальше нужно проверить, насколько удобно это работает в живых retrieval/update циклах.
+- [~] В новых UI-задачах повторяется запрос на browser-connected, screen-by-screen workflow с быстрым утверждением конкретного вида и анимации; пока это ещё operator pattern, а не формализованный reusable skill.
 
 ## Next
 - [x] На следующем проходе прогнать `обновись` на живом новом диалоге.
@@ -49,12 +51,14 @@
 - [ ] Прогнать update drill `обновись по jjforrussia` и `сохрани сессию в 02_ventures/jjforrussia/evidence/sources`.
 - [ ] Добавить playbook для `архивируй проект`, когда появится первый завершенный venture.
 - [ ] Добавить отдельный playbook для system-level updates внутри `Context`.
+- [ ] Описать отдельный playbook для `обновись ко всем чатам`: какое окно локальных session logs читать, как фильтровать low-signal threads и когда делать cross-project synthesis вместо venture rewrite.
 - [ ] Прогнать `поставить задачу` и `все задачи по проекту X` на живом запросе.
 - [ ] Прогнать retrieval drill по `00_system/skill-hub` на живом skill-вопросе.
 - [ ] Прогнать live use-case по `telegram-hiring-contact-sourcing` на собственном легитимном Telegram-аккаунте и проверить, хватает ли reference-layer без серых workaround-ов.
 - [ ] Решить, нужен ли task viewer внутри самого `Context` repo как постоянный артефакт, а не только как внешний deploy.
 - [ ] Завершить отдельный Vercel deploy для `03_domains/recruiting/hr-tech-report-site`.
 - [ ] Решить, нужно ли под report-site заводить постоянный project / domain или оставить как preview-only artifact.
+- [ ] Решить, оформлять ли browser-driven UI iteration как отдельный `live-screen-copy`-style skill или оставить это operator-only режимом.
 
 ## Decisions
 - Репозиторий строится как `LLM-first memory system`, а не как проектная папка.
@@ -104,6 +108,7 @@
 - 2026-04-08: added folder indexes and the first venture source packs for `jjforrussia`.
 - 2026-04-10: added `00_system/skill-hub` with a sync script, mirrored local skills, and a machine-readable registry for cloud access.
 - 2026-04-11: added the first cloud-published skill `telegram-hiring-contact-sourcing`, a Telegram setup/troubleshooting source pack, and aligned the canonical skill back to a safe own-account Telethon workflow.
+- 2026-04-17: audited local Codex sessions for `2026-04-16 ... 2026-04-17`, added a system-level daily synthesis for `обновись ко всем чатам`, and recorded new operator signals around browser-driven UI iteration and all-chat synthesis.
 
 ## Smoke / demo checks for next run
 - Показать дерево структуры после Milestone 1.

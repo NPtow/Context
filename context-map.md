@@ -2,7 +2,7 @@
 title: Context Map
 type: index
 status: active
-updated_at: 2026-04-15
+updated_at: 2026-04-17
 ---
 
 # Назначение
@@ -13,7 +13,7 @@ updated_at: 2026-04-15
 # Что сейчас активно
 
 - `active venture`: `jjforrussia`
-- `latest session`: [07_sessions/2026/2026-04-15.md](/Users/NIKITA/.codex/context/Context/07_sessions/2026/2026-04-15.md)
+- `latest session`: [07_sessions/2026/2026-04-17.md](/Users/NIKITA/.codex/context/Context/07_sessions/2026/2026-04-17.md)
 - `founder memory`: [01_founder/working-with-nikita.md](/Users/NIKITA/.codex/context/Context/01_founder/working-with-nikita.md)
 - `core commands`: [00_system/commands.md](/Users/NIKITA/.codex/context/Context/00_system/commands.md)
 - `skill hub`: [00_system/skill-hub/README.md](/Users/NIKITA/.codex/context/Context/00_system/skill-hub/README.md)
