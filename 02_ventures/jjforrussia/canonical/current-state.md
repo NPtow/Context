@@ -3,7 +3,7 @@ title: Current State
 type: canonical
 venture: jjforrussia
 status: active
-updated_at: 2026-04-24
+updated_at: 2026-04-25
 ---
 
 # Summary
@@ -20,6 +20,7 @@ updated_at: 2026-04-24
 - Telegram sourcing для `JJF-006` уже работает не как разовый scrape, а как двухслойный operator workflow: per-channel exact-only CSV плюс отдельный analytical cleaning/reporting layer.
 - Employer-side market read по HR-корпусу пересобран в evidence-first `v2`: только модельно отобранные HR/business каналы, консервативные counts и прямые ссылки на посты для каждой сильной гипотезы.
 - HH AI recruiting event добавил transcript-backed evidence: employer-side боль смещается к weak signals, skill-based assessment, AI-distorted candidate evidence, interviewer process and post-hire validation; это усиливает текущий wedge, но не является новым pivot.
+- После уточнения Никиты продуктовая механика сформулирована как `матрица роли × матрица кандидата`: текущий продукт не меняется, а навыковая оценка становится базисом фильтрации, сравнения и выдачи более релевантных кандидатов.
 - Исследовательские scaffolds и вспомогательные operator surfaces нужно держать local-first / standalone-first; они не должны автоматически попадать в продуктовые репозитории без явной команды.
 
 # Current truth
@@ -73,6 +74,8 @@ updated_at: 2026-04-24
 - отдельный candidate-facing survey/landing теперь рассматривается как правильный surface для такого distribution, а не как часть core product repo;
 - сбор первых вакансий и первых кандидатов;
 - первый service surface теперь стоит понимать не как recommendation engine, а как двусторонний сбор structured data для ручного matching;
+- уточнённый первый service surface: работодатель приносит или вместе с нами формулирует матрицу роли, кандидат проходит базовый созвон, по созвону собирается матрица кандидата, затем две матрицы сравниваются вручную или полуавтоматически;
+- матрица в этой логике не является отдельным консалтинговым продуктом; это основание фильтрации, объяснения релевантности и следующего шага в найме;
 - ручной pilot flow без сложного matching engine.
 
 ## Что сейчас считается рабочей отстройкой
@@ -88,6 +91,7 @@ updated_at: 2026-04-24
   - снижения потерь кандидатов внутри воронки;
   - снижения ошибки найма, которая вскрывается после выхода.
 - после HH event дополнительный рабочий язык employer-side wedge: `candidate evidence pack`, где shortlist сопровождается role fit, observed skill evidence, unresolved risks and next HM probes.
+- после уточнения механики более точная формулировка wedge: `навыковый слой подбора`, который сравнивает матрицу роли и матрицу кандидата, а не просто пересказывает резюме или отдаёт список анкет.
 
 ## Что уже решено
 - идти в двустороннюю модель;
@@ -117,7 +121,9 @@ updated_at: 2026-04-24
 - [evidence/sessions/2026-04-13-sprint-plan-rebase.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-13-sprint-plan-rebase.md) — как weekend-задания были переведены в рабочий будничный спринт и что считается expected output к пятнице.
 - [evidence/sessions/2026-04-14-hr-topic-research-v2-evidence.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-14-hr-topic-research-v2-evidence.md) — как employer-side market read был пересобран после провала rule-based v1 и какие темы сейчас реально подтверждены ссылками.
 - [evidence/sessions/2026-04-24-hh-event-analysis.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-24-hh-event-analysis.md) — аналитический отчет по HH event: что значит skill-based / anti-fraud / AI-use assessment для `jjforrussia`.
+- [evidence/sessions/2026-04-25-skill-based-matching-mechanism.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-25-skill-based-matching-mechanism.md) — уточнение от Никиты: продукт остаётся тем же, но базисом фильтрации становится сравнение матрицы роли и матрицы кандидата.
 - [artifacts/candidate-problem-survey-landing-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/candidate-problem-survey-landing-v1.md) — reusable survey/landing artifact для candidate-side problem research.
+- [artifacts/skill-based-matching-mechanism-v0.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/skill-based-matching-mechanism-v0.md) — reusable упаковка ценностного предложения `матрица роли × матрица кандидата`.
 - [working/hypotheses.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/working/hypotheses.md) — рабочие гипотезы и границы подтверждения.
 
 ## Source trail
@@ -145,3 +151,4 @@ updated_at: 2026-04-24
 - как именно конвертировать первые HR-ответы и expert calls в живые hiring briefs при сжатом рынке и возможном hire freeze.
 - explicit-only company layer для employer outreach: какие компании реально можно назвать на основании прямого evidence, а не просто упоминаний в HR-контенте.
 - проверить `candidate evidence pack v0` и optional `AI-use skill assessment` как employer-side artifact до строительства полноценной платформы.
+- проверить, понятна ли работодателям формулировка `матрица роли × матрица кандидата`, и достаточно ли одного базового созвона, чтобы достоверно заполнить матрицу кандидата без завышенных обещаний.
