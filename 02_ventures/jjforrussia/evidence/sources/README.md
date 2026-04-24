@@ -3,7 +3,7 @@ title: JJFORRUSSIA Source Packs
 type: index
 venture: jjforrussia
 status: active
-updated_at: 2026-04-09
+updated_at: 2026-04-24
 ---
 
 # Назначение
@@ -15,6 +15,7 @@ Source-layer для `jjforrussia`. Здесь лежат не summary ради s
 1. `2026-04-08-russian-market-scan.md`
 2. `2026-04-08-candidate-interviews-wave-1.md`
 3. `2026-04-09-hh-it-hiring-signals.md`
+4. `2026-04-24-hh-ai-recruiting-event.md`
 
 # Что сюда писать
 

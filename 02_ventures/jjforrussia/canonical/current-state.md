@@ -3,7 +3,7 @@ title: Current State
 type: canonical
 venture: jjforrussia
 status: active
-updated_at: 2026-04-14
+updated_at: 2026-04-24
 ---
 
 # Summary
@@ -19,6 +19,7 @@ updated_at: 2026-04-14
 - Для sourcing ops появился reusable Telegram-only skill и connection guidance; серые workflows с покупными аккаунтами, прокси и account rotation не считаются частью канонического pilot flow.
 - Telegram sourcing для `JJF-006` уже работает не как разовый scrape, а как двухслойный operator workflow: per-channel exact-only CSV плюс отдельный analytical cleaning/reporting layer.
 - Employer-side market read по HR-корпусу пересобран в evidence-first `v2`: только модельно отобранные HR/business каналы, консервативные counts и прямые ссылки на посты для каждой сильной гипотезы.
+- HH AI recruiting event добавил transcript-backed evidence: employer-side боль смещается к weak signals, skill-based assessment, AI-distorted candidate evidence, interviewer process and post-hire validation; это усиливает текущий wedge, но не является новым pivot.
 - Исследовательские scaffolds и вспомогательные operator surfaces нужно держать local-first / standalone-first; они не должны автоматически попадать в продуктовые репозитории без явной команды.
 
 # Current truth
@@ -86,6 +87,7 @@ updated_at: 2026-04-14
   - калибровки роли и критериев до запуска подбора;
   - снижения потерь кандидатов внутри воронки;
   - снижения ошибки найма, которая вскрывается после выхода.
+- после HH event дополнительный рабочий язык employer-side wedge: `candidate evidence pack`, где shortlist сопровождается role fit, observed skill evidence, unresolved risks and next HM probes.
 
 ## Что уже решено
 - идти в двустороннюю модель;
@@ -114,6 +116,7 @@ updated_at: 2026-04-14
 - [evidence/sessions/2026-04-13-context-audit-and-execution-guardrails.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-13-context-audit-and-execution-guardrails.md) — audit recent chats и уточнение execution guardrails без нового product pivot.
 - [evidence/sessions/2026-04-13-sprint-plan-rebase.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-13-sprint-plan-rebase.md) — как weekend-задания были переведены в рабочий будничный спринт и что считается expected output к пятнице.
 - [evidence/sessions/2026-04-14-hr-topic-research-v2-evidence.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-14-hr-topic-research-v2-evidence.md) — как employer-side market read был пересобран после провала rule-based v1 и какие темы сейчас реально подтверждены ссылками.
+- [evidence/sessions/2026-04-24-hh-event-analysis.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-24-hh-event-analysis.md) — аналитический отчет по HH event: что значит skill-based / anti-fraud / AI-use assessment для `jjforrussia`.
 - [artifacts/candidate-problem-survey-landing-v1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/artifacts/candidate-problem-survey-landing-v1.md) — reusable survey/landing artifact для candidate-side problem research.
 - [working/hypotheses.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/working/hypotheses.md) — рабочие гипотезы и границы подтверждения.
 
@@ -122,6 +125,7 @@ updated_at: 2026-04-14
 - [evidence/sources/2026-04-08-candidate-interviews-wave-1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-08-candidate-interviews-wave-1.md) — чем подтверждены candidate pain, segmentation и manual-calibration readout.
 - [evidence/sources/2026-04-11-telegram-api-setup-and-app-creation.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-11-telegram-api-setup-and-app-creation.md) — официальный и community-backed source layer по Telethon onboarding и `my.telegram.org` app creation troubleshooting.
 - [evidence/sources/2026-04-12-pusser-zheleznov-transcript.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-12-pusser-zheleznov-transcript.md) — transcript-backed source pack по ближайшему спринту, ручному matching-first flow и employer-side рискам.
+- [evidence/sources/2026-04-24-hh-ai-recruiting-event.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-24-hh-ai-recruiting-event.md) — transcript-backed source pack по HH event, skill-based hiring, anti-fraud and assessment evidence.
 
 ## Read next
 - [evidence/README.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/README.md)
@@ -140,3 +144,4 @@ updated_at: 2026-04-14
 - как быстро превратить `843` actionable direct contacts из текущего batch в shortlist компаний и first-wave outreach queue без ручной возни по всем `2492` raw rows.
 - как именно конвертировать первые HR-ответы и expert calls в живые hiring briefs при сжатом рынке и возможном hire freeze.
 - explicit-only company layer для employer outreach: какие компании реально можно назвать на основании прямого evidence, а не просто упоминаний в HR-контенте.
+- проверить `candidate evidence pack v0` и optional `AI-use skill assessment` как employer-side artifact до строительства полноценной платформы.

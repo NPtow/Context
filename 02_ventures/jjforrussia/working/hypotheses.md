@@ -3,7 +3,7 @@ title: Hypotheses
 type: working
 venture: jjforrussia
 status: active
-updated_at: 2026-04-14
+updated_at: 2026-04-24
 ---
 
 # Главные гипотезы пилота
@@ -84,6 +84,31 @@ HR и hiring managers по PM-ролям страдают от низкого к
 - рядом уже всплыл отдельный `CPO / head-level` segment, который не надо смешивать с core wedge;
 - технические и integrator-heavy PM-переходы пока стоит держать как gray-zone, а не как автоматический fit или no-fit.
 
+# Current readout после HH AI recruiting event
+
+## Что усилилось
+
+- `Г3` усилилась ещё одним source-backed сигналом: крупные hiring-функции говорят не про нехватку резюме, а про слабый candidate signal, AI-distorted evidence, разрыв профиля и сложность принятия hiring decisions.
+- `Г5` стала конкретнее: working filter для product roles должен быть не просто taxonomy, а `role profile -> skills -> indicators -> observed evidence -> risks / next probes`.
+- `Г8` усилилась: отстройка от `hh` и enterprise ATS должна идти через узкий trusted evidence layer, а не через generic AI recruiter promise.
+- Появился рабочий adjacent wedge: `AI-use skill assessment` как consent-based task для ролей, где умение пользоваться AI уже является частью работы.
+
+## Что это не доказывает
+
+- `Г4` всё ещё не доказана: event показывает pain language и operating patterns, но не willingness to pay.
+- Тезис о конкретной стратегии HH по AI recruiter / AI career consultant сохранён как заметка Никиты, но доступные аудио не дают полного transcript-level подтверждения.
+- Anti-fraud не стоит считать самостоятельным продуктом без assessment design, human review and post-hire validation.
+
+## Новый рабочий artifact для проверки
+
+- `candidate evidence pack v0`:
+  - role brief and critical skills;
+  - candidate evidence by skill;
+  - evidence strength;
+  - unresolved risks;
+  - suggested next HM probes;
+  - optional AI-use task trace.
+
 # Current evidence
 
 ## Primary evidence files
@@ -96,6 +121,8 @@ HR и hiring managers по PM-ролям страдают от низкого к
 - [../evidence/sources/2026-04-08-candidate-interviews-wave-1.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-08-candidate-interviews-wave-1.md)
 - [../evidence/sources/2026-04-12-pusser-zheleznov-transcript.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-12-pusser-zheleznov-transcript.md)
 - [../evidence/sessions/2026-04-14-hr-topic-research-v2-evidence.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-14-hr-topic-research-v2-evidence.md)
+- [../evidence/sources/2026-04-24-hh-ai-recruiting-event.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sources/2026-04-24-hh-ai-recruiting-event.md)
+- [../evidence/sessions/2026-04-24-hh-event-analysis.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/evidence/sessions/2026-04-24-hh-event-analysis.md)
 
 # Read next
 - [README.md](/Users/NIKITA/.codex/context/Context/02_ventures/jjforrussia/README.md)
