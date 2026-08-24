@@ -2,7 +2,7 @@
 title: Context Map
 type: index
 status: active
-updated_at: 2026-05-04
+updated_at: 2026-08-24
 ---
 
 # Назначение
@@ -13,7 +13,7 @@ updated_at: 2026-05-04
 # Что сейчас активно
 
 - `active venture`: `jjforrussia`
-- `latest session`: [07_sessions/2026/2026-05-04.md](/Users/NIKITA/.codex/context/Context/07_sessions/2026/2026-05-04.md)
+- `latest session`: [07_sessions/2026/2026-08-24.md](/Users/NIKITA/.codex/context/Context/07_sessions/2026/2026-08-24.md)
 - `founder memory`: [01_founder/working-with-nikita.md](/Users/NIKITA/.codex/context/Context/01_founder/working-with-nikita.md)
 - `core commands`: [00_system/commands.md](/Users/NIKITA/.codex/context/Context/00_system/commands.md)
 - `skill hub`: [00_system/skill-hub/README.md](/Users/NIKITA/.codex/context/Context/00_system/skill-hub/README.md)
@@ -95,6 +95,12 @@ Resolution order всегда такой:
 1. [09_tasks/active-index.md](/Users/NIKITA/.codex/context/Context/09_tasks/active-index.md)
 2. `09_tasks/projects/<project>.md`
 3. [09_tasks/task-schema.md](/Users/NIKITA/.codex/context/Context/09_tasks/task-schema.md), если нужно понять формат или добавить новую задачу
+
+## Если нужен all-chat synthesis
+Читать в таком порядке:
+1. [05_playbooks/all-chat-synthesis.md](/Users/NIKITA/.codex/context/Context/05_playbooks/all-chat-synthesis.md)
+2. последний файл из [07_sessions/2026/](/Users/NIKITA/.codex/context/Context/07_sessions/2026/)
+3. локальные `.codex/sessions/**/*.jsonl` только за нужное окно времени
 
 # Правила чтения
 
