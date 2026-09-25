@@ -33,6 +33,7 @@
 - [~] Следующий проход должен проверить реальное удобство retrieval на новых сессиях, а не только на seed-контенте.
 - [~] Команда `обновись` уже прогнана на live-run и теперь покрывает system-level updates для самого `Context`.
 - [~] Automation-use-case `обновись ко всем чатам` теперь имеет отдельный playbook с windowing и signal-threshold rules; следующий риск - правильно роутить новые non-JJFR проекты вроде DSA, не смешивая их с active venture.
+- [~] Последний all-chat run за 2026-09-21...2026-09-25 был low-signal: product/venture deltas нет, но найден workspace hygiene issue в standup automation для `referalocka`.
 - [~] Добавлен общий task-layer; теперь нужно проверить, что task-команды работают так же стабильно, как project-команды.
 - [~] Venture-memory разделена: старая `referalka` и новый `jjforrussia` больше не смешиваются в одном canonical state.
 - [~] Добавлен отдельный meetings-layer и skill для записи встреч в Context.
@@ -53,6 +54,7 @@
 - [ ] Добавить отдельный playbook для system-level updates внутри `Context`.
 - [x] Описать отдельный playbook для `обновись ко всем чатам`: какое окно локальных session logs читать, как фильтровать low-signal threads и когда делать cross-project synthesis вместо venture rewrite.
 - [ ] Решить, заводить ли `DSA` как отдельный venture/domain в `Context` после появления большого sales-ops сигнала.
+- [ ] Починить или перенастроить standup automation workspace для `referalocka`: сохраненный путь ведет к broken symlink в `/Users/NIKITA/Downloads/referalocka`, рабочий checkout найден в `/Users/NIKITA/Projects/referalocka`.
 - [ ] Прогнать `поставить задачу` и `все задачи по проекту X` на живом запросе.
 - [ ] Прогнать retrieval drill по `00_system/skill-hub` на живом skill-вопросе.
 - [ ] Прогнать live use-case по `telegram-hiring-contact-sourcing` на собственном легитимном Telegram-аккаунте и проверить, хватает ли reference-layer без серых workaround-ов.
@@ -111,6 +113,7 @@
 - 2026-04-11: added the first cloud-published skill `telegram-hiring-contact-sourcing`, a Telegram setup/troubleshooting source pack, and aligned the canonical skill back to a safe own-account Telethon workflow.
 - 2026-04-17: audited local Codex sessions for `2026-04-16 ... 2026-04-17`, added a system-level daily synthesis for `обновись ко всем чатам`, and recorded new operator signals around browser-driven UI iteration and all-chat synthesis.
 - 2026-08-24: audited local Codex sessions for `2026-08-23T06:16:29Z ... 2026-08-24T10:24:11+03:00`, added all-chat synthesis session, created the all-chat synthesis playbook, and recorded DSA sales-ops as a non-JJFR signal pending routing decision.
+- 2026-09-25: audited local Codex sessions for `2026-09-21T07:38:05.866Z ... 2026-09-25T16:57:00+03:00`; added a compact low-signal all-chat synthesis and recorded the `referalocka` standup workspace symlink issue.
 
 ## Smoke / demo checks for next run
 - Показать дерево структуры после Milestone 1.
