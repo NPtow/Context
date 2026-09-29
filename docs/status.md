@@ -35,6 +35,7 @@
 - [~] Automation-use-case `обновись ко всем чатам` теперь имеет отдельный playbook с windowing и signal-threshold rules; следующий риск - правильно роутить новые non-JJFR проекты вроде DSA, не смешивая их с active venture.
 - [~] Последний all-chat run за 2026-09-21...2026-09-25 был low-signal: product/venture deltas нет, но найден workspace hygiene issue в standup automation для `referalocka`.
 - [~] Последний all-chat run за 2026-09-25...2026-09-26 сохранил operational references для DSA, Kaplya и локального Codex model catalog; изменений venture canonical нет.
+- [~] Последний all-chat run за 2026-09-28...2026-09-29 выделил два самостоятельных кандидата на routing: «Связность» (развёрнутый прототип карты зависимостей идей) и Proteus (vision/PDF); они не смешаны с `jjforrussia`.
 - [~] Добавлен общий task-layer; теперь нужно проверить, что task-команды работают так же стабильно, как project-команды.
 - [~] Venture-memory разделена: старая `referalka` и новый `jjforrussia` больше не смешиваются в одном canonical state.
 - [~] Добавлен отдельный meetings-layer и skill для записи встреч в Context.
@@ -116,6 +117,7 @@
 - 2026-08-24: audited local Codex sessions for `2026-08-23T06:16:29Z ... 2026-08-24T10:24:11+03:00`, added all-chat synthesis session, created the all-chat synthesis playbook, and recorded DSA sales-ops as a non-JJFR signal pending routing decision.
 - 2026-09-25: audited local Codex sessions for `2026-09-21T07:38:05.866Z ... 2026-09-25T16:57:00+03:00`; added a compact low-signal all-chat synthesis and recorded the `referalocka` standup workspace symlink issue.
 - 2026-09-26: audited local Codex sessions for `2026-09-25T13:55:52.294Z ... 2026-09-26T11:21:00+03:00`; added a session-level synthesis for DSA candidate-panel, Kaplya repository and Codex model-catalog operational facts without changing venture truth.
+- 2026-09-29: audited three user-root Codex threads for `2026-09-28T06:08:08.385Z ... 2026-09-29T14:14:00+03:00`; recorded «Связность», a DSA ROP Granola note and the Proteus desktop-vision artifact at session layer without changing venture truth.
 
 ## Smoke / demo checks for next run
 - Показать дерево структуры после Milestone 1.
