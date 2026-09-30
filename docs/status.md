@@ -36,6 +36,7 @@
 - [~] Последний all-chat run за 2026-09-21...2026-09-25 был low-signal: product/venture deltas нет, но найден workspace hygiene issue в standup automation для `referalocka`.
 - [~] Последний all-chat run за 2026-09-25...2026-09-26 сохранил operational references для DSA, Kaplya и локального Codex model catalog; изменений venture canonical нет.
 - [~] Последний all-chat run за 2026-09-28...2026-09-29 выделил два самостоятельных кандидата на routing: «Связность» (развёрнутый прототип карты зависимостей идей) и Proteus (vision/PDF); они не смешаны с `jjforrussia`.
+- [~] Последний all-chat run за 2026-09-29...2026-09-30 уточнил Proteus как общий проактивный слой для sales, поддержки, онбординга и автоматизации; «Капля» осталась дизайн-эскизом, оба направления пока session-level.
 - [~] Добавлен общий task-layer; теперь нужно проверить, что task-команды работают так же стабильно, как project-команды.
 - [~] Venture-memory разделена: старая `referalka` и новый `jjforrussia` больше не смешиваются в одном canonical state.
 - [~] Добавлен отдельный meetings-layer и skill для записи встреч в Context.
