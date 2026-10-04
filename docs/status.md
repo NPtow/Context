@@ -40,6 +40,7 @@
 - [~] Последний all-chat run за 2026-09-30...2026-10-01 зафиксировал HR Vision как отдельную рабочую линию: первая волна из 200 сообщений запланирована на 5 октября, но готовность воронки, аккаунтов, панелей и маршрутов кандидата пока не проверена. DSA-перезапуск, партнерская дека и исследование бизнес-школы остались session-level.
 - [~] Последний all-chat run за 2026-10-01...2026-10-02 сохранил выбранный материал локального desktop-прототипа Proteus, интерактивную карту HR Vision и data-integrity риски связки DSA «Прайсы → КП Хаб». Все новые линии остаются session-level до отдельного routing decision.
 - [~] Последний all-chat run за 2026-10-02...2026-10-03 подтвердил серверную выкладку DSA для импорта версий прайсов и печати КП, рабочие desktop-итерации Proteus и опубликованный демонстрационный пакет HR Vision. Все линии остаются session-level: у DSA и HR Vision нет отдельного project path, а у Proteus не подтверждена product-ready сборка.
+- [~] Последний all-chat run за 2026-10-03...2026-10-04 сохранил короткую внешнюю деку и закрытый видеопоказ HR Vision, а также диагностированные пробелы capture-loop/recovery в Proteus и контрактные расхождения сайта DSA с КП Хабом. Это подтвержденные session-level результаты: исправление Proteus, production-playback и end-to-end сверка КП не выполнены.
 - [~] Добавлен общий task-layer; теперь нужно проверить, что task-команды работают так же стабильно, как project-команды.
 - [~] Venture-memory разделена: старая `referalka` и новый `jjforrussia` больше не смешиваются в одном canonical state.
 - [~] Добавлен отдельный meetings-layer и skill для записи встреч в Context.
@@ -125,6 +126,7 @@
 - 2026-10-01: audited user-root Codex threads for `2026-09-30T06:01:55.910Z ... 2026-10-01T09:01:00+03:00`; recorded HR Vision's planned first outreach wave, DSA execution/partner artifacts, and the bounded evidence for a business-school proposal without changing venture truth.
 - 2026-10-02: audited user-root Codex threads for `2026-10-01T06:01:00.539Z ... 2026-10-02T12:00:00+03:00`; recorded the selected Proteus desktop material, HR Vision's connected agency prototype, DSA price-to-proposal audit and preliminary beta-protection constraints without changing venture truth.
 - 2026-10-03: audited user-root Codex threads for `2026-10-02T06:00:28.220Z ... 2026-10-03T09:01:15+03:00`; recorded DSA's verified production refresh and document-layout work, Proteus desktop/core direction, and HR Vision's published jobs/CJM prototype without changing venture truth.
+- 2026-10-04: audited user-root Codex threads for `2026-10-03T06:01:14.262Z ... 2026-10-04T09:01:52+03:00`; recorded HR Vision's audience-safe deck and bounded video-demo evidence, Proteus capture reliability diagnostics, and the DSA website/KP Hub source-contract audit without changing venture truth.
 
 ## Smoke / demo checks for next run
 - Показать дерево структуры после Milestone 1.
