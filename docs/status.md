@@ -52,6 +52,7 @@
 - [~] Последний all-chat run за 2026-10-12...2026-10-13 сохранил проверенный редизайн доски разбора в стиле свободного холста и 64 подготовленных пакета разбора школ; в приложение применены только 40. Синтаксический аудит не доказывает достаточность аргумента, роль ЛПР, актуальность контакта или потребность в найме; линия остается session-level.
 - [~] Последний all-chat run за 2026-10-13...2026-10-14 подтвердил сохранение всех 64 школьных разборов и локальный путь HR Vision от CV к выдаче доступа. Живая доставка доступа блокирована отсутствующим SMTP, публикация `/candidate` не подтверждена. Диагностика DSA показала лимит единственной LLM-модели КП Хаба при исправных каталоге и фильтрах; все линии остаются session-level.
 - [~] Последний all-chat run за 2026-10-16 подтвердил только незавершенную HR Vision work-in-progress: controlled technical-check персонального candidate-flow, реестр 20 дополнительных публичных Telegram-источников CV и локальную проверку brand refresh. Это не приемка пользовательского сценария, не готовность аутрича и не подтверждение production-релиза; линия остается session-level.
+- [~] Последний all-chat run за 2026-10-18...2026-10-19 подтвердил опубликованное улучшение HR Vision для пустой подборки и 3 демо-кандидатов, а также локальный source-backed разбор компетенций продаж. Матрица остаётся рабочей гипотезой до role-specific проверки задач, наблюдаемых доказательств и согласованности оценщиков. Бэкап YC требует отдельного восстановления: последняя успешная копия была 11 октября, текущий сбой — недостаток места на `dsa` для согласованной копии SQLite.
 - [~] Добавлен общий task-layer; теперь нужно проверить, что task-команды работают так же стабильно, как project-команды.
 - [~] Venture-memory разделена: старая `referalka` и новый `jjforrussia` больше не смешиваются в одном canonical state.
 - [~] Добавлен отдельный meetings-layer и skill для записи встреч в Context.
@@ -147,6 +148,8 @@
 - 2026-10-11: audited completed user-root and automation Codex threads for `2026-10-10T06:09:58.214Z ... 2026-10-11T09:01:03+03:00`; recorded a bounded HR Vision source-pilot, the DSA Workspace deployment, and Proteus interaction research without changing venture truth.
 - 2026-10-12: audited user-root local Codex threads for `2026-10-11T06:01:03.650Z ... 2026-10-12T08:56:42+03:00`; recorded a bounded local HR Vision VK/hiring-history/analysis-board artifact without changing venture truth.
 - 2026-10-13: audited local Codex work for `2026-10-12T08:56:42+03:00 ... 2026-10-13T08:58:43+03:00`; recorded the verified local board redesign and bounded school-analysis package without changing venture truth.
+
+- 2026-10-19: audited local Codex work for `2026-10-18T11:22:44.534Z ... 2026-10-19T10:10:00+03:00`; recorded published HR Vision shortlist UX, bounded sales-competency research, and the YC-backup failure without changing venture truth.
 
 ## Smoke / demo checks for next run
 - Показать дерево структуры после Milestone 1.
